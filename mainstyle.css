@@ -117,7 +117,9 @@ h4 {
 }
 
 #leveledior_imagelink {
-    height: 75px;
+    height: auto;
+    width: 100%;
+    max-width: 700px;
     cursor: pointer;
 }
 
