@@ -1,0 +1,218 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(42, 42, 46, 1);
+    color: white;
+}
+
+a {
+    color: #0099ff;
+}
+
+a:visited {
+    color: #ee00dd;
+}
+
+
+/* Header */
+
+header {
+    max-width: 750px;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: rgb(61, 61, 61);
+    transition: background-color 1s ease;
+    cursor: pointer;
+}
+
+header:hover {
+    transition: background-color 1s ease;
+    background-color: #3ea8ee;
+}
+
+.header_container {
+    height: 50px;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    display: inline;
+}
+
+.title {
+    font-size: 200%;
+    display: inline;
+    line-height: 50px;
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    bottom: 25%;
+    margin-left: 15px;
+    font-weight: 400;
+}
+
+main {
+    padding: 25px;
+    max-width: 750px;
+    display: table;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: rgb(43, 43, 43);
+}
+
+#main_head {
+    font-size: 200%;
+}
+
+#main_text {
+    font-size: 150%;
+}
+
+h2 {
+    font-size: 175%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+h3 {
+    font-weight: 400;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+.game_name {
+    font-size: 175%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+}
+
+.game_description {
+    font-size: 115%;
+}
+
+.other_link {
+    display: block;
+    font-size: 120%;
+    padding-bottom: 15px;
+}
+
+.play_link {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 135%;
+}
+
+.big_play_link {
+    display: block;
+    padding-bottom: 5px;
+    font-size: 200%;
+}
+
+#leveledior_imagelink {
+    height: 75px;
+    cursor: pointer;
+}
+
+.learn_more {
+    display: block;
+    font-size: 110%;
+}
+
+.game_image {
+    width: 250px;
+    height: auto;
+    border-radius: 5px;
+}
+
+#other_head {
+    margin-top: 30px;
+}
+
+#game_head {
+    font-size: 200%;
+    margin: 10px;
+}
+
+.image_gallery {
+    max-width: 750px;
+}
+
+.gallery_img {
+    height: 150px;
+    width: auto;
+}
+
+.gallery_img_vertical {
+    height: auto;
+    width: 100px;
+    /* border: white 1px solid; */
+    margin: 1px;
+}
+
+#games {
+    text-align: center;
+}
+
+#game_layout {
+    display: inline;
+    text-align: center;
+}
+
+.game_container {
+    width: 300px;
+    height: 325px;
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.game_container:hover {
+    background-color: rgb(75, 75, 75);
+    transition: background-color 0.5s ease;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px #888888;
+}
+
+#about_link {
+    font-size: 90%;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    background-color: rgb(61, 61, 61);
+    height: 50px;
+    max-width: 750px;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#footer_content {
+    display: table;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+#copyright {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}

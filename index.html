@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <link href="/mainstyle.css" rel="stylesheet">
+    <title>Donutask</title>
+
+    <meta name="description" content="Donutask - indie game developer">
+</head>
+
+<body>
+
+    <header onclick="window.location= '/index.html'">
+        <div class="header_container">
+
+            <img class="logo" src="/Images/Logo.png" alt="">
+            <h1 class="title">Donutask</h1>
+        </div>
+    </header>
+
+    <main>
+        <h2 id="main_head">Donutask</h2>
+        <p id="main_text">I'm a game developer. I also like donuts and bad puns. <a id="about_link" href="/about.html">About Me</a></p>
+
+        <div id="games">
+            <h2 id="game_head">Games</h2>
+            <div id="game_layout">
+                <div class="game_container" id="leveledior" onclick="window.location= '/LevelEditor'">
+                    <h3 class="game_name">Level Editor</h3>
+                    <img class="game_image" id="img_leveleditor" src="Images/LevelEditor.png">
+                    <p class="game_description">Make your own incredible levels!</p>
+                    <a class="play_link" href="https://donutask.itch.io/level-editor">Get on itch.io</a>
+                    <a class="learn_more" href="/LevelEditor">Learn More</a>
+                </div>
+
+                <div class="game_container" id="bubblewrap" onclick="window.location= '/BubbleWrap'">
+                    <h3 class="game_name">Bubble Wrap</h3>
+                    <img class="game_image" id="img_bubblewrap" src="Images/Bubblewrap.png">
+                    <p class="game_description">Free and simple antistress</p>
+                    <a class="play_link" href="https://play.google.com/store/apps/details?id=com.donutask.bubblewrap">Get on Google Play</a>
+                    <a class="learn_more" href="/BubbleWrap">Learn More</a>
+                </div>
+
+                <div class="game_container" id="breaddash" onclick="window.location= '/BreadDash'">
+                    <h3 class="game_name">Bread Dash</h3>
+                    <img class="game_image" id="img_breaddash" src="Images/BreadDash.png">
+                    <p class="game_description">Dodge obstacles; eat delicous bread!</p>
+                    <a class="play_link" href="https://play.google.com/store/apps/details?id=com.donutask.bread_dash">Get on Google Play</a>
+                    <a class="learn_more" href="/BreadDash">Learn More</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="other">
+            <h2 id="other_head">Other Stuff</h2>
+            <p><a href="https://donutask.github.io/pigame/play.html">Pi Game</a> a quiz to remeber π</p>
+            <a class="other_link" href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Youtube Channel</a>
+            <a class="other_link" href="https://github.com/Donutask">Github Profile</a>
+            <a class="other_link" href="https://donutask.itch.io/">Itch.io Profile</a>
+        </div>
+        <div id="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:thedonutask@gmail.com">thedonutask@gmail.com</a></p>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer_content">
+            <p id="copyright">© 2021 Charles Belcastro
+            </p>
+
+
+        </div>
+    </footer>
+</body>
+
+</html>
