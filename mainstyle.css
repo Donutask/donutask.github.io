@@ -79,6 +79,7 @@ h4 {
     margin-top: 10px;
     margin-bottom: 10px;
     font-weight: 400;
+    margin: 10px;
 }
 
 .game_description {
@@ -94,7 +95,7 @@ h4 {
 .play_link {
     display: block;
     padding-bottom: 5px;
-    font-size: 135%;
+    font-size: 140%;
 }
 
 .big_play_link {
@@ -112,12 +113,12 @@ h4 {
 
 .learn_more {
     display: block;
-    font-size: 110%;
+    font-size: 115%;
 }
 
 .game_image {
-    width: 250px;
-    height: auto;
+    /* width: 250px;
+    height: auto; */
     border-radius: 5px;
 }
 
@@ -156,7 +157,7 @@ h4 {
 }
 
 .game_container {
-    width: 300px;
+    width: 290px;
     height: 325px;
     display: inline-block;
     text-align: center;
@@ -175,12 +176,17 @@ h4 {
     font-size: 90%;
 }
 
+#profile {
+    width: 100px;
+    display: inline;
+}
+
 
 /* Footer */
 
 footer {
     text-align: center;
-    height: 50px;
+    height: 70px;
     max-width: 750px;
     margin: 0 auto;
     padding-right: 25px;
@@ -197,14 +203,14 @@ footer {
 }
 
 #copyright {
-    display: table-cell;
-    vertical-align: middle;
+    display: block;
+    /* vertical-align: middle; */
     text-align: center;
+    margin: 10px;
 }
 
-#profile {
-    width: 100px;
-    display: inline;
+#footer_links {
+    display: block;
 }
 
 
@@ -253,7 +259,7 @@ footer {
         color: #0099ff;
     }
     a:visited {
-        color: #ee00dd;
+        color: rgb(240, 0, 225);
     }
     main {
         border: 1px solid black;
