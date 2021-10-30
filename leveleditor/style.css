@@ -1,0 +1,20 @@
+#leveleditorname {
+    max-width: 90%;
+    height: auto;
+}
+
+#main_text {
+    font-size: 170%;
+}
+
+#leveledior_imagelink {
+    height: auto;
+    width: 90vw;
+    max-width: 700px;
+    cursor: pointer;
+}
+
+#long_description {
+    width: 85vw;
+    max-width: 750px;
+}

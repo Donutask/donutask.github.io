@@ -47,6 +47,7 @@ header:hover {
 main {
     padding: 25px;
     max-width: 750px;
+    /* width: 100vw; */
     display: table;
     margin: 0 auto;
 }
@@ -71,31 +72,8 @@ h3 {
 }
 
 h4 {
-    font-weight: 400;
-}
-
-.game_name {
-    font-size: 175%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 400;
-    margin: 10px;
-}
-
-.game_description {
-    font-size: 115%;
-}
-
-.other_link {
-    display: block;
-    font-size: 120%;
-    padding-bottom: 15px;
-}
-
-.play_link {
-    display: block;
-    padding-bottom: 5px;
-    font-size: 140%;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
 }
 
 .big_play_link {
@@ -104,77 +82,38 @@ h4 {
     font-size: 200%;
 }
 
-#leveledior_imagelink {
-    height: auto;
-    width: 100%;
-    max-width: 700px;
-    cursor: pointer;
-}
-
-.learn_more {
-    display: block;
-    font-size: 115%;
-    margin-top: 8px;
-}
-
-.game_image {
-    /* width: 250px;
-    height: auto; */
-    border-radius: 5px;
-}
-
-#other_head {
-    margin-top: 30px;
-}
-
-#game_head {
-    font-size: 200%;
-    margin: 10px;
-}
-
 .image_gallery {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
     max-width: 750px;
+    width: 90vw;
+    overflow-x: auto;
+    /* background-color: #ddd; */
 }
 
 .gallery_img {
+    display: inline;
     height: 150px;
     width: auto;
+    margin-left: 5px;
+    margin-right: 5px;
+    user-select: none;
 }
+
+
+/* 
+.gallery_img {
+    height: 150px;
+    width: auto;
+    display: inline;
+} */
 
 .gallery_img_vertical {
     height: auto;
     width: 100px;
     /* border: white 1px solid; */
     margin: 1px;
-}
-
-#games {
-    text-align: center;
-}
-
-#game_layout {
-    display: inline;
-    text-align: center;
-}
-
-.game_container {
-    width: 290px;
-    height: 325px;
-    display: inline-block;
-    text-align: center;
-    transition: background-color 0.5s ease;
-    border-radius: 10px;
-    cursor: pointer;
-    margin: 7px;
-}
-
-#breaddash {
-    height: 345px;
-}
-
-.game_container:hover {
-    transition: background-color 0.5s ease;
-    border-radius: 15px;
 }
 
 #about_link {
@@ -238,21 +177,12 @@ main {
     background-color: rgb(245, 245, 245)
 }
 
-.game_container {
-    background-color: rgb(225, 225, 225);
-    transition: background-color 0.5s ease;
-}
-
-.game_container:hover {
-    background-color: rgb(235, 235, 235);
-    box-shadow: 1px 1px 3px #888888;
-}
-
 footer {
     background-color: rgb(240, 240, 240);
 }
 
-@media (prefers-color-scheme: dark) {
+
+/* @media (prefers-color-scheme: dark) {
     body {
         background-color: rgba(42, 42, 46, 1);
         color: white;
@@ -281,4 +211,4 @@ footer {
     footer {
         background-color: rgb(61, 61, 61);
     }
-}
+} */
