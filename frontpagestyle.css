@@ -1,0 +1,83 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0"><!-- google fonts --><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"><link href="/mainstyle.css" rel="stylesheet"><title>About Donutask</title><meta name="description" content="Donutask - indie game developer"></head><body><header onclick="window.location= '/index.html'"><div class="header_container"><img class="logo" src="/Images/Logo.png" alt=""><h1 class="title">Donutask</h1></div></header><main><h2 id="main_head">About</h2><p id="main_text">Hi,
+I'm Charles & I make games.</p>
+ <p>I do all of it: coding,
+drawing,
+debugging,
+rebugging,
+distributing,
+marketing and more.</p><p>I got started with <a href="https://scratch.mit.edu/users/charlesbel/">Scratch</a>from a school coding club. I worked with Scratch for a while and actually made some cool stuff. Later I watched Youtube videos on Unity and C# and started working with them.</p><p>Eventually,
+I published my first app <a href="/breaddash/">Bread Dash</a>,
+an android app on Google Play. This app has a lot of bugs from how bad my early code was and I haven't gotten arround to fixing it.</p>
+ <p>The next published project was <a href="/bubblewrap/">Bubble Wrap</a>which was much less complex and easier to work on.</p><p>I am currently working on <a href="/leveleditor/">Level Editor</a>a game creation tool of sorts.</p><p>In between I've made many unfinished projects and procrastinatied a whole lot.</p>
+ <p>This website was made entirely by me too. See the source on <a href="https://github.com/Donutask/donutask.github.io">Github</a></p><div id="contact"><h2>Contact</h2><p>Email: <a href="mailto:thedonutask@gmail.com">thedonutask@gmail.com</a></p></div></main><footer><div id="footer_content"><p id="copyright">© 2021 Charles Belcastro</p><div id="footer_links"><a class="footer_link" href="/index.html">Homepage</a><a class="footer_link" href="mailto:thedonutask@gmail.com">Contact</a><a class="footer_link" href="https://github.com/Donutask/donutask.github.io">Source Code</a></div></div></footer></body></html>mage {
+    /* width: 250px;
+    height: auto; */
+    border-radius: 5px;
+    position: relative;
+}
+
+#other_head {
+    margin-top: 30px;
+}
+
+.game_name {
+    font-size: 200%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.game_description {
+    font-size: 150%;
+    margin-left: 10px;
+    width: calc(100% - 90px);
+    /* margin: 10px; */
+}
+
+.play_link {
+    display: block;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    font-size: 175%;
+    width: 200px;
+}
+
+.other_link {
+    display: block;
+    font-size: 120%;
+    padding-bottom: 15px;
+    width: 200px;
+}
+
+.game_container {
+    /* background-color: #3ea8ee; */
+    background-color: rgb(225, 225, 225);
+    transition: background-color 0.5s ease;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.game_container:hover {
+    background-color: #6ebdf2;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.game_container:focus {
+    background-color: #6ebdf2;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+
+/* @media (prefers-color-scheme: dark) {
+    .game_container {
+        background-color: rgb(61, 61, 61);
+        transition: background-color 0.5s ease;
+    }
+    .game_container:hover {
+        background-color: rgb(75, 75, 75);
+        box-shadow: 1px 1px 3px #888888;
+    }
+ 
+} */
