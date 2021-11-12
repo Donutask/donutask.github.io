@@ -86,8 +86,10 @@ h4 {
     margin: 0;
     padding: 0;
     white-space: nowrap;
-    max-width: 750px;
-    width: 90vw;
+    /* max-width: 750px; */
+    /* width: 90%; */
+    width: 750px;
+    max-width: 82vw;
     overflow-x: auto;
     /* background-color: #ddd; */
 }
@@ -155,6 +157,11 @@ footer {
 
 #footer_links {
     display: block;
+}
+
+.full_width {
+    max-width: 80vw;
+    width: 750px;
 }
 
 

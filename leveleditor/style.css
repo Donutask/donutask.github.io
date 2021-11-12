@@ -9,12 +9,12 @@
 
 #leveledior_imagelink {
     height: auto;
-    width: 90vw;
-    max-width: 700px;
+    width: 700px;
+    max-width: 75vw;
     cursor: pointer;
 }
 
 #long_description {
-    width: 85vw;
-    max-width: 750px;
+    width: 750px;
+    max-width: 82vw;
 }

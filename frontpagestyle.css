@@ -1,6 +1,8 @@
 #leveleditorname {
     margin-left: 15px;
     margin-top: 10px;
+    max-width: 90%;
+    height: auto;
 }
 
 .game_container {
