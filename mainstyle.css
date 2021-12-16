@@ -47,7 +47,7 @@ header:hover {
 main {
     padding: 25px;
     max-width: 750px;
-    /* width: 100vw; */
+    width: 100vw;
     display: table;
     margin: 0 auto;
 }
