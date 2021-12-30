@@ -1,121 +1,124 @@
-        #leveleditorname {
-            margin-left: 15px;
-            margin-top: 10px;
-            max-width: 90%;
-            height: auto;
-        }
-        
-        .game_container {
-            text-align: left;
-            width: calc(100% - 30px);
-            /* display: inline-block; */
-            transition: background-color 0.5s ease;
-            border-radius: 5px;
-            cursor: pointer;
-            margin-bottom: 7px;
-            margin-top: 7px;
-            padding: 15px;
-            /* height: 175px; */
-            height: 100%;
-            background-repeat: no-repeat;
-            background-position: left calc(100% - 20px) top calc(100% - 20px);
-            background-size: 75px;
-        }
-        
-        @media screen and (min-width: 550px) {
-            #leveleditor {
-                background-image: url(/leveleditor/Icon.png);
-            }
-            #bubblewrap {
-                background-image: url(/bubblewrap/Icon.png);
-            }
-            #breaddash {
-                background-image: url(/breaddash/Icon.png);
-            }
-        }
-        
-        .game_container:hover {
-            transition: background-color 0.5s ease;
-            border-radius: 10px;
-        }
-        
-        .game_container:focus {
-            transition: background-color 0.5s ease;
-            border-radius: 10px;
-        }
-        
-        #game_head {
-            font-size: 200%;
-            margin: 12px;
-            margin-left: 0px;
-        }
-        
-        .learn_more {
-            display: block;
-            font-size: 115%;
-            margin-top: 8px;
-        }
-        
-        .game_image {
-            /* width: 250px;
+#leveleditorname {
+    margin-left: 15px;
+    margin-top: 10px;
+    max-width: 90%;
+    height: auto;
+}
+
+.game_container {
+    text-align: left;
+    /* width: calc(100% - 30px); */
+    width: 100%;
+    /* display: inline-block; */
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 7px;
+    margin-top: 7px;
+    padding: 15px;
+    /* height: 175px; */
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: left calc(100% - 20px) top calc(100% - 20px);
+    background-size: 75px;
+}
+
+@media screen and (min-width: 550px) {
+    #leveleditor {
+        background-image: url(/leveleditor/Icon.png);
+    }
+    #bubblewrap {
+        background-image: url(/bubblewrap/Icon.png);
+    }
+    #breaddash {
+        background-image: url(/breaddash/Icon.png);
+    }
+}
+
+.game_container:hover {
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+}
+
+.game_container:focus {
+    transition: background-color 0.5s ease;
+    border-radius: 10px;
+}
+
+#game_head {
+    font-size: 200%;
+    margin: 12px;
+    margin-left: 0px;
+}
+
+.learn_more {
+    display: block;
+    font-size: 115%;
+    margin-top: 8px;
+}
+
+.game_image {
+    /* width: 250px;
     height: auto; */
-            border-radius: 5px;
-            position: relative;
-        }
-        
-        #other_head {
-            margin-top: 30px;
-        }
-        
-        .game_name {
-            font-size: 200%;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            font-weight: 400;
-            margin: 10px;
-            font-family: 'Roboto';
-            font-weight: 500;
-        }
-        
-        .game_description {
-            font-size: 150%;
-            margin-left: 10px;
-            width: calc(100% - 90px);
-            /* margin: 10px; */
-        }
-        
-        .play_link {
-            display: block;
-            padding-bottom: 5px;
-            margin-left: 10px;
-            font-size: 175%;
-            width: 200px;
-        }
-        
-        .other_link {
-            display: block;
-            font-size: 120%;
-            padding-bottom: 15px;
-            width: 200px;
-        }
-        
-        .game_container {
-            /* background-color: #3ea8ee; */
-            background-color: rgb(225, 225, 225);
-            transition: background-color 0.5s ease;
-            box-shadow: 1px 1px 1px #888888;
-        }
-        
-        .game_container:hover {
-            background-color: #6ebdf2;
-            box-shadow: 1px 1px 5px #888888;
-        }
-        
-        .game_container:focus {
-            background-color: #6ebdf2;
-            box-shadow: 1px 1px 5px #888888;
-        }
-        /* @media (prefers-color-scheme: dark) {
+    border-radius: 5px;
+    position: relative;
+}
+
+#other_head {
+    margin-top: 30px;
+}
+
+.game_name {
+    font-size: 200%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    margin: 10px;
+    font-family: 'Roboto';
+    font-weight: 500;
+}
+
+.game_description {
+    font-size: 150%;
+    margin-left: 10px;
+    width: calc(100% - 90px);
+    /* margin: 10px; */
+}
+
+.play_link {
+    display: block;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    font-size: 175%;
+    width: 200px;
+}
+
+.other_link {
+    display: block;
+    font-size: 120%;
+    padding-bottom: 15px;
+    width: 200px;
+}
+
+.game_container {
+    /* background-color: #3ea8ee; */
+    background-color: rgb(225, 225, 225);
+    transition: background-color 0.5s ease;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+.game_container:hover {
+    background-color: #6ebdf2;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+.game_container:focus {
+    background-color: #6ebdf2;
+    box-shadow: 1px 1px 5px #888888;
+}
+
+
+/* @media (prefers-color-scheme: dark) {
     .game_container {
         background-color: rgb(61, 61, 61);
         transition: background-color 0.5s ease;

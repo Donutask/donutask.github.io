@@ -6,8 +6,9 @@ body {
 /* Header */
 
 header {
-    max-width: 750px;
-    margin: 0 auto;
+    /* max-width: 750px; */
+    /* width: 100%; */
+    /* margin: 0 auto; */
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 10px;
@@ -44,12 +45,16 @@ header:hover {
     font-weight: 400;
 }
 
-main {
-    padding: 25px;
+#content {
     max-width: 750px;
-    width: 100vw;
+    /* width: calc(100vw); */
     display: table;
     margin: 0 auto;
+}
+
+main {
+    padding: 25px;
+    /* width: 100%; */
 }
 
 #main_head {
@@ -91,7 +96,7 @@ h4 {
     width: 750px;
     max-width: 82vw;
     overflow-x: auto;
-    /* background-color: #ddd; */
+    user-select: none;
 }
 
 .gallery_img {
@@ -100,16 +105,8 @@ h4 {
     width: auto;
     margin-left: 5px;
     margin-right: 5px;
-    user-select: none;
+    /* user-select: none; */
 }
-
-
-/* 
-.gallery_img {
-    height: 150px;
-    width: auto;
-    display: inline;
-} */
 
 .gallery_img_vertical {
     height: auto;
