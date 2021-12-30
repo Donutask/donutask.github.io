@@ -7,20 +7,19 @@
 
 .game_container {
     text-align: left;
-    /* width: calc(100% - 30px); */
     width: 100%;
-    /* display: inline-block; */
     transition: background-color 0.5s ease;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 7px;
     margin-top: 7px;
     padding: 15px;
-    /* height: 175px; */
     height: 100%;
     background-repeat: no-repeat;
     background-position: left calc(100% - 20px) top calc(100% - 20px);
     background-size: 75px;
+    border-style: none;
+    user-select: none;
 }
 
 @media screen and (min-width: 550px) {
@@ -58,8 +57,6 @@
 }
 
 .game_image {
-    /* width: 250px;
-    height: auto; */
     border-radius: 5px;
     position: relative;
 }
@@ -82,7 +79,6 @@
     font-size: 150%;
     margin-left: 10px;
     width: calc(100% - 90px);
-    /* margin: 10px; */
 }
 
 .play_link {
@@ -90,7 +86,7 @@
     padding-bottom: 5px;
     margin-left: 10px;
     font-size: 175%;
-    width: 200px;
+    width: 210px;
 }
 
 .other_link {
@@ -100,11 +96,13 @@
     width: 200px;
 }
 
+
+/* colour styling */
+
 .game_container {
-    /* background-color: #3ea8ee; */
     background-color: rgb(225, 225, 225);
     transition: background-color 0.5s ease;
-    box-shadow: 1px 1px 1px #888888;
+    box-shadow: 1px 1px 2px #888888;
 }
 
 .game_container:hover {
