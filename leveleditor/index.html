@@ -12,68 +12,69 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
     <link href="/mainstyle.css" rel="stylesheet">
-    <link href="/frontpagestyle.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
-    <title>Donutask</title>
+    <title>Level Editor | Donutask</title>
+    <meta name="description" content="Level Editor by Donutask. Make your own incredible levels!">
 
-    <meta name="description" content="Donutask - an indie game developer who likes donuts and bad puns">
+    <link rel="icon" type="image/png" href="favicon.ico" />
 </head>
 
 <body>
     <div id="content">
-        <header onclick="window.location= '/index.html'">
-            <div class="header_container">
+        <header>
+            <div class="header_container" onclick="window.location= '\/index.html'">
                 <img class="logo" src="/Images/Logo.png" alt="">
                 <h1 class="title">Donutask</h1>
             </div>
         </header>
 
         <main>
-            <h2 id="main_head">Donutask</h2>
-            <p id="main_text">I'm an indie game developer who likes donuts and bad puns. <a id="about_link" href="/about.html">About Me</a></p>
+            <img id="leveleditorname" src="/leveleditor/Name.png" width="400" height="66" alt="Level Editor">
+            <p id="main_text">Make your own incredible levels!</p>
 
-            <div id="games">
-                <h2 id="game_head">Games</h2>
-                <div id="game_layout">
-                    <button class="game_container" id="leveleditor" onclick="window.location= '/leveleditor'">
-
-                    <img id="leveleditorname" src="leveleditor/Name.png" width="350" height="51" alt="Level Editor">
-                    <p class="game_description">Make your own incredible levels!</p>
-                    <a class="play_link" href="https://donutask.itch.io/level-editor">Get on itch.io</a>
-                    </button>
-
-                    <button class="game_container" id="bubblewrap" onclick="window.location= '/bubblewrap'">
-                    <h3 class="game_name">Bubble Wrap</h3>
-                    <p class="game_description">Free and simple antistress</p>
-                    <a class="play_link" href="https://play.google.com/store/apps/details?id=com.donutask.bubblewrap">Get on Google Play</a>
-                </button>
-
-                    <button class="game_container" id="breaddash" onclick="window.location= '/breaddash'">
-                    <h3 class="game_name">Bread Dash</h3>
-                    <p class="game_description">Dodge obstacles & eat delicous bread!</p>
-                    <a class="play_link" href="https://play.google.com/store/apps/details?id=com.donutask.bread_dash">Get on Google Play</a>
-                </button>
-                </div>
+            <div class="image_gallery">
+                <img class="gallery_img" src="/leveleditor/Interesting.png" alt="A large level">
+                <img class="gallery_img" src="/leveleditor/Bugs.png" alt="A spider with a sign below, saying 'Looots of bugs'">
+                <img class="gallery_img" src="/leveleditor/DirtCave.png" alt="Playing a level of a dirt cave">
+                <img class="gallery_img" src="/leveleditor/Level.png" alt="The world 'Level' created using various blocks">
             </div>
 
-            <div id="other">
-                <h2 id="other_head">Other Stuff</h2>
-                <p><a href="https://donutask.github.io/pigame/play.html">Pi Game</a> a quiz to remeber π</p>
-                <p><a href="https://github.com/Donutask/donutask.github.io">Source Code</a> for this website</p>
+            <div id="long_description">
+                <p>Level Editor is a game creation tool of sorts. Using simple tools you can make anything you can imagine. Quickly play your creations and then tweak them to whatever you desire. There are 90+ blocks, obstacles and other goodies including:</p>
+                <ul>
+                    <li>Mobile enemies - turtles, big turtles, fire turtles, robot turtles!</li>
+                    <li>A variety of power ups.</li>
+                    <li>Ladders, springs and fans.</li>
+                    <li>Dynamite & cannons.</li>
+                    <li>Buttons and toggle blocks for special logic.</li>
+                    <li>Different types of solid blocks - grass, stone, bricks, sand, etc.</li>
+                    <li>Crates & heavier crates.</li>
+                    <li>Grass, flowers, bushes, cacti.</li>
+                    <li>Wormholes. Teleport anywhere!</li>
+                    <li>Timers, heaters, magnets. </li>
+                    <li>Colorful wool blocks.</li>
+                    <li>Fireworks!</li>
+                    <li>And more to come...</li>
+                </ul>
+                <p>You're in control. Rotate almost any block and change most timers.</p>
+                <p>Layers - add blocks to the background, in the middle or in front. Hide traps behind what looks like solid ground...</p>
+                <p>Tools to make things easier. Select tool for filling, moving and cutting large areas and the eyedropper to copy & paste a single block swiftly.</p>
+                <p>Dress your character with skins, tools and hats. You can change the hat colour to anything.</p>
+                <p>Make worlds, back to back lists of levels. More world features are coming soon.</p>
+            </div>
+            <img id="leveledior_imagelink" src="/leveleditor/Website.png" onclick="window.location=`https:\/\/donutask.itch.io/level-editor`" alt="The URL 'donutask.itch.io/level-editor' spelt using various blocks">
 
-                <a class="other_link" href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Youtube Channel</a>
-                <a class="other_link" href="https://github.com/Donutask">Github Profile</a>
-                <a class="other_link" href="https://donutask.itch.io/">Itch.io Profile</a>
-            </div>
-            <div id="contact">
-                <h2>Contact</h2>
-                <p>Email: <a href="mailto:thedonutask@gmail.com">thedonutask@gmail.com</a></p>
-            </div>
+            <h4>Legal</h4>
+            <a href="/leveleditor/terms.html">Terms Of Service</a>
+            <br>
+            <a href="/leveleditor/privacy.html">Privacy Policy</a>
+
         </main>
 
         <footer>
             <div id="footer_content">
-                <p id="copyright">© 2022 Charles Belcastro</p>
+                <p id="copyright">© 2021 Charles Belcastro</p>
 
                 <div id="footer_links">
                     <a class="footer_link" href="/index.html">Homepage</a>
@@ -84,7 +85,5 @@
         </footer>
     </div>
 </body>
-
-</html>
 
 </html>
