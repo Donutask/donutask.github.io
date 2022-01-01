@@ -12,60 +12,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
 
     <link href="/mainstyle.css" rel="stylesheet">
+    <link href="/frontpagestyle.css" rel="stylesheet">
 
-    <title>Bubble Wrap | Donutask</title>
-    <meta name="description" content="Bubble Wrap by Donutask. Free and simple antistress.">
+    <title>Donutask</title>
 
-    <link rel="icon" type="image/png" href="favicon.ico" />
+    <meta name="description" content="Donutask - an indie game developer who likes donuts and bad puns">
 </head>
 
 <body>
     <div id="content">
-        <header>
-            <div class="header_container" onclick="window.location= '\/index.html'">
+        <header onclick="window.location= '/index.html'">
+            <div class="header_container">
                 <img class="logo" src="/Images/Logo.png" alt="">
                 <h1 class="title">Donutask</h1>
             </div>
         </header>
 
         <main>
-            <h2 id="main_head">Bubble Wrap</h2>
-            <p id="main_text">Free, simple and customisable antistress bubble wrap.</p>
+            <h2 id="main_head">Donutask</h2>
+            <p id="main_text">I'm an indie game developer who likes donuts and bad puns. <a id="about_link" href="/about.html">About Me</a></p>
 
-            <div class="image_gallery">
-                <img class="gallery_img_vertical" src="/bubblewrap/bw1.jpg" alt="A screen of bubblewrap">
-                <img class="gallery_img_vertical" src="/bubblewrap/bw2.jpg" alt="Bubblewrap options">
-                <img class="gallery_img_vertical" src="/bubblewrap/bw3.jpg" alt="A smaller screen of bubblewrap">
-                <img class="gallery_img_vertical" src="/bubblewrap/bw4.jpg" alt="Sound options">
-                <img class="gallery_img_vertical" src="/bubblewrap/bw5.jpg" alt="Bread bubblewrap, some are popped">
-                <img class="gallery_img_vertical" src="/bubblewrap/bw6.jpg" alt="Colour options">
-                <img class="gallery_img_vertical" src="/bubblewrap/bw7.jpg" alt="Multicloured, mostly popped bubblewrap">
+            <div id="games">
+                <h2 id="game_head">Games</h2>
+                <div id="game_layout">
+                    <button class="game_container" id="leveleditor" onclick="window.location= '/leveleditor'">
+
+                    <img id="leveleditorname" src="leveleditor/Name.png" width="350" height="51" alt="Level Editor">
+                    <p class="game_description">Make your own incredible levels!</p>
+                    <a class="play_link" href="https://donutask.itch.io/level-editor">Get on itch.io</a>
+                    </button>
+
+                    <button class="game_container" id="bubblewrap" onclick="window.location= '/bubblewrap'">
+                    <h3 class="game_name">Bubble Wrap</h3>
+                    <p class="game_description">Free and simple antistress</p>
+                    <a class="play_link" href="https://play.google.com/store/apps/details?id=com.donutask.bubblewrap">Get on Google Play</a>
+                </button>
+
+                    <button class="game_container" id="breaddash" onclick="window.location= '/breaddash'">
+                    <h3 class="game_name">Bread Dash</h3>
+                    <p class="game_description">Dodge obstacles & eat delicous bread!</p>
+                    <a class="play_link" href="https://play.google.com/store/apps/details?id=com.donutask.bread_dash">Get on Google Play</a>
+                </button>
+                </div>
             </div>
 
-            <p>Relieve stress with virtual Bubble Wrap. No ads. No purchases. No tracking. </p>
-            <h3>Features</h3>
-            <h4>Customisable</h4>
-            <p> Customise the bubble wrap however you like. Change how many bubbles there are, their colour and the background colour. You can also have up to 4 different colours of bubbles on the screen at once. Choose between realistic bubbles, minimal,
-                or even bread with crunching sounds.</p>
-            <h4>Simple & Clean</h4>
-            <p> Very easy to use with a polished and streamlined interface. All buttons are in reach of your hand. Supports dark theme. </p>
-            <h4>Endless</h4>
-            <p>Never run out of bubble wrap again! When you pop all the bubbles, they refresh automatically. Relieve stress anytime and anywhere. </p>
-            <h4>Free!</h4>
-            <p> No ads, purchases, tracking of any sorts. All features are completely free. Enjoy!</p>
-            </p>
-            <a class="big_play_link" href="https://play.google.com/store/apps/details?id=com.donutask.bubblewrap">Get on Google Play</a>
-            <!-- 
-        <h4>Direct Download</h4>
-        <a href="/Downloads/BubbleWrap.apk">BubbleWrap.apk (Version 2.0)</a> -->
+            <div id="other">
+                <h2 id="other_head">Other Stuff</h2>
+                <p><a href="https://donutask.github.io/pigame/play.html">Pi Game</a> a quiz to remeber π</p>
+                <p><a href="https://github.com/Donutask/donutask.github.io">Source Code</a> for this website</p>
 
-            <h3>Legal</h3>
-            <a href="/bubblewrap/privacy.html">Privacy Policy</a>
+                <a class="other_link" href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Youtube Channel</a>
+                <a class="other_link" href="https://github.com/Donutask">Github Profile</a>
+                <a class="other_link" href="https://donutask.itch.io/">Itch.io Profile</a>
+            </div>
+            <div id="contact">
+                <h2>Contact</h2>
+                <p>Email: <a href="mailto:thedonutask@gmail.com">thedonutask@gmail.com</a></p>
+            </div>
         </main>
 
         <footer>
             <div id="footer_content">
-                <p id="copyright">© 2021 Charles Belcastro</p>
+                <p id="copyright">© 2022 Charles Belcastro</p>
 
                 <div id="footer_links">
                     <a class="footer_link" href="/index.html">Homepage</a>
