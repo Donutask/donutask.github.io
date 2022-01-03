@@ -1,10 +1,24 @@
 #leveleditorname {
-    max-width: 90%;
+    width: 100%;
+    max-width: 500px;
     height: auto;
 }
 
-#main_text {
+#head_text {
     font-size: 170%;
+}
+
+#shoulder_text {
+    font-size: 115%;
+}
+
+#long_description {
+    width: 750px;
+    max-width: 82vw;
+}
+
+#link_heading {
+    font-size: 140%;
 }
 
 #leveledior_imagelink {
@@ -12,9 +26,4 @@
     width: 700px;
     max-width: 75vw;
     cursor: pointer;
-}
-
-#long_description {
-    width: 750px;
-    max-width: 82vw;
 }
