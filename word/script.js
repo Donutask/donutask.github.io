@@ -10,9 +10,16 @@ function Redirect() {
     if (code == null) {
         //if no code, redirect to landing page
         window.location = "/wordguess";
+
     } else {
+        const url = "unitydl://wordguess?" + code;
         //if there is a code try to deep link
-        window.location = "unitydl://wordguess?" + code;
+
+        document.getElementById("link").setAttribute("href", url);
+        document.getElementById("code").innerHTML = code;
+
+
+        document.location = url;
     }
 
 }

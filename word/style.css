@@ -1,0 +1,22 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: rgb(230, 230, 230);
+}
+
+#link {
+    font-size: 400%;
+}
+
+#info {
+    font-size: 150%;
+}
+
+#download_label {
+    font-size: 125%;
+}
+
+#download {
+    font-size: 200%;
+    display: block;
+}
