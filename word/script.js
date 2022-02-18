@@ -12,7 +12,7 @@ function Redirect() {
         window.location = "/wordguess";
     } else {
         //if there is a code try to deep link
-        window.location = "unitydl://word?" + code;
+        window.location = "unitydl://wordguess?" + code;
     }
 
 }
