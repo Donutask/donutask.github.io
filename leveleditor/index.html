@@ -21,58 +21,83 @@
 </head>
 
 <body>
+    <!-- <div id="stickylinks">
+        <a class="buybutton" id="stickybuybutton" href="https://donutask.itch.io/level-editor">
+            <img src="BuyNow.png" alt="Buy Now" width="200">
+        </a>
+    </div> -->
+
+
     <div id="content">
-        <header>
+        <!-- apparenty getting rid of top navigtion is good -->
+        <!-- <header>
             <div class="header_container" onclick="window.location= '\/index.html'">
                 <img class="logo" src="/Images/Logo.png" alt="">
                 <h1 class="title">Donutask</h1>
             </div>
-        </header>
+        </header> -->
 
         <main>
             <img id="leveleditorname" src="/leveleditor/Name.png" width="500" height="69" alt="Level Editor">
-            <p id="head_text">A game where you make your own games</p>
-            <p id="shoulder_text">Using simple tools you can create almost anything. Quickly play your levels, then tweak them however you like.</p>
+            <p id="head_text">A game where you can make your own games</p>
+            <p id="shoulder_text">Create almost anything using simple tools, then quickly play and tweak however you like.</p>
 
-            <div class="image_gallery">
-                <div class="gallery_img" id="video_holder">
-                    <noscript><p><a href="https://www.youtube.com/watch?v=RIH7p7Bcm9w">Video Trailer</a> requires javascript.</p></noscript>
-                </div>
-                <img class="gallery_img" src="/leveleditor/Interesting.png" alt="A large level">
-                <img class="gallery_img" src="/leveleditor/D14.png" alt="Editing level with lots of cacti, turtles, and timer blocks.">
-                <img class="gallery_img" src="/leveleditor/DirtCave.png" alt="Playing a level of a dirt cave">
-                <img class="gallery_img" src="/leveleditor/D13.png" alt="Large, complex brick level">
-                <img class="gallery_img" src="/leveleditor/Level.png" alt="The world 'Level' created using various blocks">
+            <div id="video_holder">
+                <noscript><p><a href="https://www.youtube.com/watch?v=RIH7p7Bcm9w">Video Trailer</a> requires javascript.</p></noscript>
             </div>
 
-            <h3>Features</h3>
-            <p>There are 100 blocks, obstacles and other goodies including:</p>
-            <ul>
-                <li>Mobile enemies - turtles, big turtles, fire turtles, robot turtles!</li>
-                <li>A variety of power ups.</li>
-                <li>Ladders, springs and fans.</li>
-                <li>Dynamite & cannons.</li>
-                <li>Buttons and toggle blocks for special logic.</li>
-                <li>Different types of solid blocks - grass, stone, bricks, sand, etc.</li>
-                <li>Crates & heavier crates.</li>
-                <li>Grass, flowers, bushes, cacti.</li>
-                <li>Wormholes. Teleport anywhere!</li>
-                <li>Timers, heaters, magnets. </li>
-                <li>Colorful wool blocks.</li>
-                <li>Fireworks!</li>
-                <li>And more to come...</li>
-            </ul>
-            <p>Tools to make things easier. Select tool for filling, moving and cutting large areas and the eyedropper to copy & paste a single block swiftly.</p>
-            <p>Rotate almost any block, change most timers, and customise cannons. You're in control.</p>
-            <p>Layers: Add blocks to the background, in the middle or in front. Hide traps behind what looks like solid ground...</p>
-            <p>Worlds. Play an assortment of levels back to back.</p>
-            <p>Customise your character with skins, tools and hats.</p>
-            <p>More awesomeness to come in the future.</p>
+            <div class="image_gallery">
+                <img class="gallery_img" src="/leveleditor/Screenshots/S1.png" alt="Playing dark dungeon level.">
+                <img class="gallery_img" src="/leveleditor/Screenshots/S2.png" alt="Editing level with turtles on floating islands.">
+                <img class="gallery_img" src="/leveleditor/Screenshots/S3.png" alt="Editing a large, complex level" .>
+                <img class="gallery_img" src="/leveleditor/Screenshots/S4.png" alt="Editing a level with lots of cactus, turtles, and timers.">
+                <img class="gallery_img" src="/leveleditor/Screenshots/S5.png" alt="Editing a brick level with cannons, fans, and ladders.">
+                <img class="gallery_img" src="/leveleditor/Screenshots/S6.png" alt="Playing a grassy level where the player fell onto spikes from missing a jump.">
+            </div>
+            <a class="buybutton" href="https://donutask.itch.io/level-editor">
+                <img src="BuyNow.png" alt="Buy Now" width="350">
+            </a>
 
-            <h3 id="link_heading">Download At:</h3>
-            <a href="https:\/\/donutask.itch.io/level-editor">
+            <h3 class="subheading">Over <b>100</b> blocks, obstacles & other items!</h3>
+            <ul class="largerText">
+
+                <li>Mobile enemies - turtles, big turtles, fire turtles, robot turtles! </li>
+                <li>A variety of power ups. </li>
+                <li>Custom particle effect blocks</li>
+                <li>Ladders, springs and fans. </li>
+                <li>Dynamite & cannons. </li>
+                <li>Buttons and toggle blocks for special logic. </li>
+                <li>Torches, lanterns & custom lights.</li>
+                <li>Different types of solid blocks - grass, stone, bricks, sand, etc. </li>
+                <li>Crates & heavier crates. </li>
+                <li>Musical blocks!</li>
+                <li>Grass, flowers, bushes, cacti. </li>
+                <li>Wormholes. Teleport anywhere! </li>
+                <li>Invisible blocks >:D</li>
+                <li>Timers, heaters, magnets. </li>
+                <li>Colourful wool blocks. </li>
+                <li>Fireworks!</li>
+            </ul>
+            <h3 class="smallerSubheading">Easy to use!</h3>
+            <p class="largerText">Level Editor was designed to let anyone make anything. The interface is minimalist, simple & without distractions, so you can focus on making awesome levels.</p>
+            <p class="largerText">There are tools to make things easier. Select tool for filling, moving and cutting large areas swiftly. The eyedropper lets you copy & paste a single block quickly.</p>
+
+            <h3 class="smallerSubheading">Powerful</h3>
+            <p class="largerText">Although simple, there are many things you can do, like the layer system, which lets you create complex layouts.</p>
+            <p class="largerText">Tinker with everything. You can change timers, rotate blocks, customise cannons. There are custom lights and particle effect blocks to play arround with.</p>
+            <p class="largerText">You can make Worlds, which are a group of levels that can be shared to be played back to back.</p>
+
+            <h3 class="smallerSubheading">Enjoy!</h3>
+            <p class="largerText">I'm an indie game developer who made this game to be fun, not for money. I hope you like it as much as I love to make it :D</p>
+
+            <h3 class="smallerSubheading">Download At</h3>
+            <a href="https://donutask.itch.io/level-editor">
                 <img id="leveledior_imagelink" src="/leveleditor/Website.png" alt="donutask.itch.io/level-editor">
             </a>
+
+            <!-- <h3>Share</h3>
+            <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false">Tweet</a>
+            <div class="fb-share-button" data-href="https://donutask.games/leveleditor/" data-layout="button" data-size="large"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdonutask.games%2Fleveleditor%2F&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore">Share</a></div> -->
 
             <h4>Links</h4>
             <a href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Youtube Channel</a>
@@ -81,18 +106,26 @@
             <a href="/leveleditor/terms.html">Terms Of Service</a>
             <br>
             <a href="/leveleditor/privacy.html">Privacy Policy</a>
-
+            <br>
+            <!-- <p>This website has share buttons. They are disabled if you enable Do Not Track or <a href="https://globalprivacycontrol.org/">Global Privacy Control</a></p> -->
+            <!-- Scripts -->
             <script src="script.js"></script>
+
+            <!-- Sharing -->
+            <div id="socialscripts">
+
+            </div>
+
+
+
         </main>
 
         <footer>
             <div id="footer_content">
                 <p id="copyright">© 2022 Charles Belcastro</p>
-
                 <div id="footer_links">
-                    <a class="footer_link" href="/index.html">Homepage</a>
+                    <a class="footer_link" href="/index.html">More Games</a>
                     <a class="footer_link" href="mailto:contact@donutask.games">Contact</a>
-                    <a class="footer_link" href="https://github.com/Donutask/donutask.github.io">Source Code</a>
                 </div>
             </div>
         </footer>

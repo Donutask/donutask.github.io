@@ -1,20 +1,89 @@
+body {
+    background-color: #3EA8EE;
+}
+
 #leveleditorname {
     width: 100%;
-    max-width: 500px;
+    max-width: 600px;
     height: auto;
+    display: table;
+    margin: 0 auto;
 }
 
 #head_text {
-    font-size: 170%;
+    font-size: 190%;
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 #shoulder_text {
     font-size: 115%;
+    text-align: center;
 }
 
-#long_description {
-    width: 750px;
-    max-width: 82vw;
+#video_holder {
+    width: 550px;
+    height: 309px;
+    display: table;
+    margin: 0 auto;
+}
+
+.buybutton {
+    background-color: #3EA8EE;
+    border-radius: 5px;
+    width: 350px;
+    height: 80px;
+    padding: 10px;
+    display: block;
+    display: table;
+    margin: 0 auto;
+    margin-top: 10px;
+    /* tranistions */
+    transition: background-color 0.5s ease;
+    box-shadow: 4px 4px 3px #888888;
+}
+
+.buybutton:hover {
+    background-color: #6ebdf2;
+}
+
+.buybutton:focus {
+    background-color: #6ebdf2;
+}
+
+#stickybuybutton {
+    width: 200px;
+    height: 46px;
+    border: solid #0066cc 2px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #888888;
+}
+
+#stickylinks {
+    display: none;
+    position: sticky;
+    top: 10px;
+    float: right;
+}
+
+@media (min-width: 1200px) {
+    #stickylinks {
+        display: block;
+    }
+}
+
+.subheading {
+    font-size: 175%;
+    text-align: center;
+}
+
+.smallerSubheading {
+    font-size: 150%;
+    text-align: center;
+}
+
+.largerText {
+    font-size: 110%;
 }
 
 #link_heading {
@@ -26,14 +95,10 @@
     width: 700px;
     max-width: 75vw;
     cursor: pointer;
+    display: table;
+    margin: 0 auto;
 }
 
 .gallery_img {
-    height: 200px;
+    height: 225px;
 }
-
-
-/* #video_holder {
-    width: 356px;
-    height: 200px;
-} */
