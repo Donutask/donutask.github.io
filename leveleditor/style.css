@@ -2,8 +2,18 @@ body {
     background-color: #3EA8EE;
 }
 
+main {
+    /* give some curve */
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#content {
+    margin-bottom: -8px;
+}
+
 #leveleditorname {
-    width: 100%;
+    width: 80vw;
     max-width: 600px;
     height: auto;
     display: table;
@@ -11,6 +21,7 @@ body {
 }
 
 #head_text {
+    max-width: 600px;
     font-size: 190%;
     text-align: center;
     margin-bottom: 0px;
@@ -22,17 +33,22 @@ body {
 }
 
 #video_holder {
-    width: 550px;
-    height: 309px;
+    /* width: 550px;
+    height: 309px; */
     display: table;
     margin: 0 auto;
+}
+
+#videoplayer {
+    width: 500px;
+    max-width: 83vw;
 }
 
 .buybutton {
     background-color: #3EA8EE;
     border-radius: 5px;
-    width: 350px;
-    height: 80px;
+    /* width: 350px;
+    height: 80px; */
     padding: 10px;
     display: block;
     display: table;
@@ -43,33 +59,17 @@ body {
     box-shadow: 4px 4px 3px #888888;
 }
 
+#buyimg {
+    width: 350;
+    max-width: 50vw;
+}
+
 .buybutton:hover {
     background-color: #6ebdf2;
 }
 
 .buybutton:focus {
     background-color: #6ebdf2;
-}
-
-#stickybuybutton {
-    width: 200px;
-    height: 46px;
-    border: solid #0066cc 2px;
-    border-radius: 10px;
-    box-shadow: 2px 2px 1px #888888;
-}
-
-#stickylinks {
-    display: none;
-    position: sticky;
-    top: 10px;
-    float: right;
-}
-
-@media (min-width: 1200px) {
-    #stickylinks {
-        display: block;
-    }
 }
 
 .subheading {
@@ -93,7 +93,7 @@ body {
 #leveledior_imagelink {
     height: auto;
     width: 700px;
-    max-width: 75vw;
+    max-width: 80vw;
     cursor: pointer;
     display: table;
     margin: 0 auto;
