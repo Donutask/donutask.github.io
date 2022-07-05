@@ -1,5 +1,7 @@
 body {
-    background-color: #3EA8EE;
+    background-color: #0a6cac;
+    background-image: url("Background.png");
+    background-repeat: no-repeat;
 }
 
 main {
@@ -21,7 +23,7 @@ main {
 }
 
 #head_text {
-    max-width: 600px;
+    max-width: 700px;
     font-size: 190%;
     text-align: center;
     margin-bottom: 0px;
