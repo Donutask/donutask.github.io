@@ -52,6 +52,16 @@ header:hover {
     margin: 0 auto;
 }
 
+#migrationBanner {
+    max-width: 730px;
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    font-size: 200%;
+}
+
 main {
     padding: 25px;
     /* width: 100%; */
@@ -184,6 +194,11 @@ main {
 
 footer {
     background-color: rgb(240, 240, 240);
+}
+
+#migrationBanner {
+    background-color: #80ccff;
+    color: black;
 }
 
 
