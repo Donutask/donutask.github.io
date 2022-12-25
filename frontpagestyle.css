@@ -1,3 +1,9 @@
+body {
+    background-color: rgb(230, 230, 230);
+    background: linear-gradient(0deg, rgba(10, 108, 172, 1) 0%, rgba(62, 168, 238, 1) 100%);
+    background-repeat: no-repeat;
+}
+
 #leveleditorname {
     margin-left: 15px;
     margin-top: 10px;
@@ -63,6 +69,7 @@
 
 #other_head {
     margin-top: 30px;
+    font-size: 1.5em;
 }
 
 .game_name {
@@ -94,6 +101,15 @@
     font-size: 120%;
     padding-bottom: 15px;
     width: 200px;
+}
+
+#about_abstract {
+    font-size: 1.25em;
+    margin-bottom: 0px;
+}
+
+#about {
+    font-size: 1.1em;
 }
 
 
