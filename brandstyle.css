@@ -1,0 +1,30 @@
+#colour {
+    width: 200px;
+    height: 100px;
+    background-color: #5bb4ff;
+}
+
+#colour_text {
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    color: black;
+    font-size: 1.75em;
+    position: absolute;
+}
+
+#atkinson {
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-size: 1.5em;
+}
+
+#poppins {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 1.5em;
+}
+
+#roboto {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5em;
+}

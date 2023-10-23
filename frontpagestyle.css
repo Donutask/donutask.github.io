@@ -32,9 +32,11 @@ body {
     #leveleditor {
         background-image: url(/leveleditor/Icon.png);
     }
+
     #bubblewrap {
         background-image: url(/bubblewrap/Icon.png);
     }
+
     #breaddash {
         background-image: url(/breaddash/Icon.png);
     }
@@ -108,8 +110,9 @@ body {
     margin-bottom: 0px;
 }
 
-#about {
-    font-size: 1.1em;
+.about {
+    font-size: 1.09em;
+    line-height: 150%;
 }
 
 
