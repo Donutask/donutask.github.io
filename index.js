@@ -30,6 +30,7 @@ request.onload = function () {
 
         let url = "https://youtube.com/embed/" + id + "?controls=0&showinfo=0&rel=0";
         vidPlayer.setAttribute("src", url);
+        vidPlayer.id = "videoPlayer"
     } else {
         // We reached our target server, but it returned an error
 
