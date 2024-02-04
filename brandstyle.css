@@ -11,6 +11,7 @@
     color: black;
     font-size: 1.75em;
     position: absolute;
+    user-select: all;
 }
 
 #atkinson {
