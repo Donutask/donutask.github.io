@@ -4,12 +4,19 @@ body {
     background-repeat: no-repeat;
 }
 
-#leveleditorname {
+.wordlogo {
     margin-left: 15px;
     margin-top: 10px;
     max-width: 90%;
     height: auto;
 }
+
+/* #leveleditorname {
+    margin-left: 15px;
+    margin-top: 10px;
+    max-width: 90%;
+    height: auto;
+} */
 
 .game_container {
     text-align: left;
