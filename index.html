@@ -10,10 +10,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
-
     <link href="/mainstyle.css" rel="stylesheet">
     <link href="/frontpagestyle.css" rel="stylesheet">
 
@@ -35,8 +31,8 @@
             <p id="main_text">I make fun videos about game development. <a id="about_link"
                     href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Vist my channel</a></p>
 
-            <div id="vidContainer"></div>
-            <script src="/index.js"></script>
+            <div id="vidContainer" width=700 height=344></div>
+            <script src="/loadLatestVideo.js"></script>
 
             <div id="game box">
                 <h2 id="games">Games</h2>
@@ -44,19 +40,20 @@
                 <div id="game_layout">
                     <button class="game_container" id="bubblewrap"
                         onclick="window.location= 'https://store.steampowered.com/app/2718700/Bubble_Wrap/'">
-                        <img class="wordlogo" src="Images/BubbleWrapLogo.png" alt="Bubble Wrap">
+                        <img class="wordlogo" src="Images/BubbleWrapLogo.png" alt="Bubble Wrap" width=257 height=50>
                         <p class="game_description">The best antistress game.</p>
                     </button>
 
                     <button class="game_container" id="leveleditor"
                         onclick="window.location= 'https://donutask.itch.io/level-editor'">
-                        <img class="wordlogo" src="leveleditor/Name.png" alt="Level Editor">
+                        <img class="wordlogo" src="Images/LevelEditor.png" alt="Level Editor" width=365 height=50>
                         <p class="game_description">Make your own incredible levels!</p>
                     </button>
 
                     <button class="game_container" id="cookie"
                         onclick="window.location= 'https://donutask.itch.io/cookie'">
-                        <img class="wordlogo" src="Images/CCBYATC.png" alt="Cookie Clicker, But You Are The Cookie">
+                        <img class="wordlogo" src="Images/CCBYATC.png" alt="Cookie Clicker, But You Are The Cookie"
+                            width=502 height=32>
                         <p class="game_description">Fight back against the evil cursors</p>
                     </button>
 
@@ -68,7 +65,7 @@
 
                     <button class="game_container" id="breaddash"
                         onclick="window.location= 'https://donutask.itch.io/cookie'">
-                        <img class="wordlogo" src="breaddash/BreadDashLogo.png" alt="Bread Dash">
+                        <img class="wordlogo" src="breaddash/BreadDashLogo.png" alt="Bread Dash" width=326 height=50>
                         <p class="game_description">Dodge obstaces, eat delicious bread</p>
                     </button>
                 </div>

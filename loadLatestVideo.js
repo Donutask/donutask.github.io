@@ -2,10 +2,8 @@
 //https://stackoverflow.com/questions/18267426/html-auto-embedding-recent-uploaded-videos-from-a-youtube-channel/45342740#45342740
 //https://stackoverflow.com/questions/35294633/what-is-the-vanilla-js-version-of-jquerys-getjson
 
-
 var channelID = "UC0OBisfM_ZRwf0sfDJ1Q0YQ";
 var reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
-
 
 let url = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(reqURL) + channelID
 var request = new XMLHttpRequest();
@@ -19,8 +17,6 @@ request.onload = function () {
         var link = data.items[0].link;
         var id = link.substr(link.indexOf("=") + 1);
 
-        //<iframe id="youtube_video" width="600" height="340" frameborder="0" allowfullscreen></iframe> 
-
         let vidPlayer = document.createElement("iframe");
         document.getElementById("vidContainer").appendChild(vidPlayer);
         vidPlayer.width = 600;
@@ -31,9 +27,10 @@ request.onload = function () {
         let url = "https://youtube.com/embed/" + id + "?controls=0&showinfo=0&rel=0";
         vidPlayer.setAttribute("src", url);
         vidPlayer.id = "videoPlayer"
+
+        vidPlayer.title = "Latest YouTube video"
     } else {
         // We reached our target server, but it returned an error
-
     }
 };
 

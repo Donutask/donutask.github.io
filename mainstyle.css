@@ -5,11 +5,9 @@ body {
 
 #content {
     max-width: 750px;
-    /* width: calc(100vw); */
     display: table;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-
 }
 
 header {
@@ -145,7 +143,6 @@ footer {
 
 .fineprint {
     display: block;
-    /* vertical-align: middle; */
     text-align: center;
     margin: 10px;
 }
@@ -154,12 +151,8 @@ footer {
     display: block;
 }
 
-
-
 /* THEMING */
-
-
-/* Light mode isn't in @media because it doesn't work on internet explorer */
+/* Light mode isn't in @media because it doesn't work on internet explorer lol */
 
 body {
     background-color: rgb(230, 230, 230);
@@ -171,7 +164,6 @@ header {
 }
 
 main {
-    /* border: 1px solid black; */
     background-color: rgb(245, 245, 245)
 }
 

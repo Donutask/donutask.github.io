@@ -1,6 +1,5 @@
 :root {
     background-color: rgb(240, 240, 240);
-
 }
 
 body {
@@ -19,7 +18,6 @@ body {
     height: auto;
     max-width: 75%;
     max-height: 50px;
-    /* max-height: 50px; */
 }
 
 .game_container {
