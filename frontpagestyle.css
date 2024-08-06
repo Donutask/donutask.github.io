@@ -32,12 +32,12 @@ body {
     height: 100%;
     background-repeat: no-repeat;
     background-position: left calc(100% - 20px) top calc(100% - 20px);
-    background-size: 75px;
+    background-size: min(11vw, 75px);
     border-style: none;
     user-select: none;
 }
 
-@media screen and (min-width: 550px) {
+@media screen and (min-width: 100px) {
     #leveleditor {
         background-image: url(/leveleditor/Icon.png);
     }
