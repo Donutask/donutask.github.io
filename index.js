@@ -42,8 +42,5 @@ request.onerror = function () {
 };
 
 document.onload = new function () {
-    console.log("hi");
     request.send();
 }
-
-console.log("hello");

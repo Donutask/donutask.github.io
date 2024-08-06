@@ -1,22 +1,26 @@
+:root {
+    background-color: rgb(240, 240, 240);
+
+}
+
 body {
-    background-color: rgb(230, 230, 230);
     background: linear-gradient(0deg, rgba(10, 108, 172, 1) 0%, rgba(62, 168, 238, 1) 100%);
     background-repeat: no-repeat;
 }
 
-.wordlogo {
-    margin-left: 15px;
-    margin-top: 10px;
-    max-width: 90%;
-    height: auto;
+#vidContainer {
+    text-align: center;
 }
 
-/* #leveleditorname {
-    margin-left: 15px;
+.wordlogo {
+    margin-left: 9px;
     margin-top: 10px;
-    max-width: 90%;
+    width: auto;
     height: auto;
-} */
+    max-width: 75%;
+    max-height: 50px;
+    /* max-height: 50px; */
+}
 
 .game_container {
     text-align: left;
@@ -47,6 +51,14 @@ body {
     #breaddash {
         background-image: url(/breaddash/Icon.png);
     }
+
+    #cookie {
+        background-image: url(/Images/Cookie.png);
+    }
+
+    #wordguess {
+        background-image: url(/Images/WordGuessIcon.png);
+    }
 }
 
 .game_container:hover {
@@ -59,7 +71,7 @@ body {
     border-radius: 10px;
 }
 
-#game_head {
+#games {
     font-size: 200%;
     margin: 12px;
     margin-left: 0px;
@@ -105,11 +117,12 @@ body {
     width: 210px;
 }
 
-.other_link {
+.badge {
     display: block;
-    font-size: 120%;
-    padding-bottom: 15px;
-    width: 200px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    font-size: 175%;
+    width: 210px;
 }
 
 #about_abstract {
@@ -119,17 +132,12 @@ body {
 
 .about {
     font-size: 1.09em;
-    /* line-height: 150%; */
 }
 
 #videoPlayer {
     width: 100%;
     max-width: 600px;
     height: 340px;
-    /* min-width: 100%;
-    min-height: 100%;
-    width: auto;
-    height: auto; */
 }
 
 /* colour styling */
@@ -150,15 +158,26 @@ body {
     box-shadow: 1px 1px 5px #888888;
 }
 
+/* Links */
+.social-media-links {
+    list-style-type: none;
+    padding: 0;
+}
 
-/* @media (prefers-color-scheme: dark) {
-    .game_container {
-        background-color: rgb(61, 61, 61);
-        transition: background-color 0.5s ease;
-    }
-    .game_container:hover {
-        background-color: rgb(75, 75, 75);
-        box-shadow: 1px 1px 3px #888888;
-    }
- 
-} */
+.social-media-links li {
+    margin: 10px 0;
+}
+
+.social-media-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    margin-right: 10px;
+}

@@ -1,29 +1,27 @@
 body {
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
+#content {
+    max-width: 750px;
+    /* width: calc(100vw); */
+    display: table;
+    margin: 0 auto;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 
-/* Header */
+}
 
 header {
-    /* max-width: 750px; */
-    /* width: 100%; */
-    /* margin: 0 auto; */
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
-    transition: background-color 1s ease;
-    cursor: pointer;
-}
-
-header:hover {
-    transition: background-color 1s ease;
-    background-color: #3ea8ee;
 }
 
 .header_container {
     height: 50px;
+    text-align: left;
 }
 
 .logo {
@@ -45,26 +43,8 @@ header:hover {
     font-weight: 400;
 }
 
-#content {
-    max-width: 750px;
-    /* width: calc(100vw); */
-    display: table;
-    margin: 0 auto;
-}
-
-#migrationBanner {
-    max-width: 730px;
-    width: 100%;
-    padding: 10px;
-    text-align: center;
-    display: table;
-    margin: 0 auto;
-    font-size: 200%;
-}
-
 main {
     padding: 25px;
-    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
     /* width: 100%; */
 }
 
@@ -137,18 +117,23 @@ h4 {
     display: inline;
 }
 
+.full_width {
+    max-width: 80vw;
+    width: 750px;
+}
 
 /* Footer */
 
 footer {
     text-align: center;
-    height: 100px;
+    /* height: 100px; */
     max-width: 750px;
     margin: 0 auto;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 10px;
     padding-bottom: 10px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px -1px 3px 0px
 }
 
 #footer_content {
@@ -169,14 +154,7 @@ footer {
     display: block;
 }
 
-.full_width {
-    max-width: 80vw;
-    width: 750px;
-}
 
-#vidContainer {
-    text-align: center;
-}
 
 /* THEMING */
 
@@ -200,40 +178,3 @@ main {
 footer {
     background-color: rgb(240, 240, 240);
 }
-
-#migrationBanner {
-    background-color: #80ccff;
-    color: black;
-}
-
-
-/* @media (prefers-color-scheme: dark) {
-    body {
-        background-color: rgba(42, 42, 46, 1);
-        color: white;
-    }
-    header {
-        background-color: rgb(61, 61, 61);
-    }
-    a {
-        color: #0099ff;
-    }
-    a:visited {
-        color: rgb(240, 0, 225);
-    }
-    main {
-        border: 1px solid black;
-        background-color: rgb(43, 43, 43);
-    }
-    .game_container {
-        background-color: rgb(61, 61, 61);
-        transition: background-color 0.5s ease;
-    }
-    .game_container:hover {
-        background-color: rgb(75, 75, 75);
-        box-shadow: 1px 1px 3px #888888;
-    }
-    footer {
-        background-color: rgb(61, 61, 61);
-    }
-} */

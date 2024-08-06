@@ -10,6 +10,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
 
     <link href="/mainstyle.css" rel="stylesheet">
     <link href="/frontpagestyle.css" rel="stylesheet">
@@ -21,7 +24,7 @@
 
 <body>
     <div id="content">
-        <header onclick="window.location= '/index.html'">
+        <header>
             <div class="header_container">
                 <img class="logo" src="/Images/Logo.png" alt="">
                 <h1 class="title">Donutask</h1>
@@ -29,84 +32,129 @@
         </header>
 
         <main>
-            <p id="main_text">I make fun videos about game development. <a id="about_link" href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Vist my channel</a></p>
-            
+            <p id="main_text">I make fun videos about game development. <a id="about_link"
+                    href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Vist my channel</a></p>
+
             <div id="vidContainer"></div>
             <script src="/index.js"></script>
 
-            <div id="games">
-                <h2 id="game_head">Games</h2>
+            <div id="game box">
+                <h2 id="games">Games</h2>
                 <p id="main_text">I'm an indie developer; here's the best I've made:</p>
                 <div id="game_layout">
-                    <button class="game_container" id="bubblewrap" onclick="window.location= 'https://store.steampowered.com/app/2718700/Bubble_Wrap/'">
-                    <img class="wordlogo" src="Images/BubbleWrapLogo.png" width="350" height="51" alt="Bubble Wrap">
-                    <p class="game_description">The best antistress game.</p>
-                    <a class="play_link" href="https://store.steampowered.com/app/2718700/Bubble_Wrap/">Wishlist On Steam!</a>
-                   
-
-                    <button class="game_container" id="leveleditor" onclick="window.location= '/leveleditor'">
-                    <img class="wordlogo" src="leveleditor/Name.png" width="350" height="51" alt="Level Editor">
-                    <p class="game_description">Make your own incredible levels!</p>
-                    <a class="play_link" href="https://donutask.itch.io/level-editor">Get on itch.io</a>
+                    <button class="game_container" id="bubblewrap"
+                        onclick="window.location= 'https://store.steampowered.com/app/2718700/Bubble_Wrap/'">
+                        <img class="wordlogo" src="Images/BubbleWrapLogo.png" alt="Bubble Wrap">
+                        <p class="game_description">The best antistress game.</p>
                     </button>
+
+                    <button class="game_container" id="leveleditor"
+                        onclick="window.location= 'https://donutask.itch.io/level-editor'">
+                        <img class="wordlogo" src="leveleditor/Name.png" alt="Level Editor">
+                        <p class="game_description">Make your own incredible levels!</p>
+                    </button>
+
+                    <button class="game_container" id="cookie"
+                        onclick="window.location= 'https://donutask.itch.io/cookie'">
+                        <img class="wordlogo" src="Images/CCBYATC.png" alt="Cookie Clicker, But You Are The Cookie">
+                        <p class="game_description">Fight back against the evil cursors</p>
+                    </button>
+
+                    <!-- <button class="game_container" id="wordguess"
+                        onclick="window.location= 'https://donutask.itch.io/cookie'">
+                        <img class="wordlogo" src="Images/WordGuess.png" width="350" height="50" alt="Word Guess">
+                        <p class="game_description">Yet another Wordle clone</p>
+                    </button> -->
+
+                    <button class="game_container" id="breaddash"
+                        onclick="window.location= 'https://donutask.itch.io/cookie'">
+                        <img class="wordlogo" src="breaddash/BreadDashLogo.png" alt="Bread Dash">
+                        <p class="game_description">Dodge obstaces, eat delicious bread</p>
                     </button>
                 </div>
             </div>
 
             <div id="other">
                 <h3 id="other_head">Other Games</h2>
-                    <p><a href="https://play.google.com/store/apps/details?id=com.donutask.bubblewrap">Bubble Wrap Android App</a> - The original free and simple antistress.</p>
-                    <p><a href="/breaddash">Bread Dash</a> - Dodge obstacles & eat delicous bread! The first android app I made.</p>
-                    <p><a href="https://donutask.itch.io/very-cool-painting-game">Very Cool Painting Game</a> Competitive cactus dodging snake with colourful trails!</p>
-                    <p><a href="https://donutask.com/pigame/play.html">Pi Game</a> a quiz to remember π</p>
+                    <p><a href="https://play.google.com/store/apps/details?id=com.donutask.bubblewrap">Bubble Wrap
+                            Android</a> - Free antistress app with no ads and no purchases.</p>
+                    <p><a href="https://donutask.com/Bubble-Wrap-Web/">Bubble Wrap
+                            Online</a> - Super simple antistress website.</p>
+                    <p><a href="https://donutask.itch.io/very-cool-painting-game">Very Cool Painting Game</a> -
+                        Competitive cactus dodging snake with colourful trails!</p>
+                    <p><a href="https://donutask.com/pigame/play.html">Pi Game</a> - Quiz to memorize π</p>
+                    <p><a href="https://donutask.com/multiplicationgame/">Multiplication Game</a> - Literally just a
+                        times tables quiz</p>
+                    <p><a href="https://donutask.itch.io/lessismore">Less is More</a></p>
             </div>
+
+            <h2 id="other_head ">Links</h2>
+            <ul class="social-media-links">
+                <li>
+                    <a href="https://www.youtube.com/@donut_ask">
+                        <img src="social icons/youtube.png" alt="" class="icon">
+                        Youtube
+                    </a>
+                </li>
+                <li>
+                    <a href="https://scratch.mit.edu/users/charlesbel/">
+                        <img src="social icons/scratch.png" alt="" class="icon">
+                        Scratch
+                    </a>
+                </li>
+                <li>
+                    <a href="https://donutask.itch.io/">
+                        <img src="social icons/itch.png" alt="" class="icon">
+                        Itch.io
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Donutask ">
+                        <img src="social icons/github.png" alt="" class="icon">
+                        Github
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:contact@donutask.com">
+                        <img src="social icons/email.png" alt="" class="icon">
+                        contact@donutask.com
+                    </a>
+                </li>
+            </ul>
 
             <h2>About</h2>
             <p id="about_abstract">Game dev from 10 years old.</p>
             <p class="about">I started making games in 2016 in
-                <a href="https://scratch.mit.edu/users/charlesbel/">Scratch</a>, at primary school. </p>
+                <a href="https://scratch.mit.edu/users/charlesbel/">Scratch</a>, at primary school.
+            </p>
 
-                <p class="about">
-                I got better at coding and used the Unity game engine to create <a href="/breaddash">Bread Dash</a>. Although it was low quality and buggy, I learnt valuable skills which I used for my next projects.</p>
+            <p class="about">
+                I got better at coding and used the Unity game engine to create <a href="/breaddash">Bread Dash</a>.
+                Although it was low quality and buggy, I learnt valuable skills which I used for my next projects.</p>
 
-                <p class="about">
-                <a href="/bubblewrap">Bubble Wrap</a> was my next and most successful app - with over 28 thousand total users.
+            <p class="about">
+                <a href="/bubblewrap">Bubble Wrap</a> was my next and most successful app - with over 28 thousand total
+                users.
 
-                <p class="about">
-                My next project, <a href="/leveleditor">Level Editor</a>, was the most ambitious and complicated. It's basically a game where you can make your own games.</p>
+            <p class="about">
+                My next project, <a href="/leveleditor">Level Editor</a>, was the most ambitious and complicated. It's
+                basically a game where you can make your own games.</p>
 
-                <p class="about">I'm currently porting the Bubble Wrap Android app to <a href="https://store.steampowered.com/app/2718700/Bubble_Wrap/">Steam</a>, with many new features and improvements. I'm trying to make it the most satisfying antistress app I can!
-                </p>
+            <p class="about">I'm currently porting the Bubble Wrap Android app to <a
+                    href="https://store.steampowered.com/app/2718700/Bubble_Wrap/">Steam</a>, with many new features and
+                improvements. I'm trying to make it the most satisfying antistress app I can!
+            </p>
 
-                <p class="about">
+            <p class="about">
                 I also create fun videos about game development on my
-                <a href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">YouTube channel</a>.</p>
-
-
-            <div id=" socials ">
-                <h2 id="other_head ">Links</h2>
-                <a class="other_link" href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ ">YouTube Channel</a>
-                <a class="other_link" href="https://github.com/Donutask ">Github Profile</a>
-                <a class="other_link" href="https://donutask.itch.io/ ">Itch.io Profile</a>
-                <a class="other_link" href="/brand.html">Brand Assets</a>
-            </div>
-
-            <div id="contact ">
-                <h2>Contact</h2>
-                <p>Email: <a href="mailto:contact@donutask.com ">contact@donutask.com</a></p>
-            </div>
+                <a href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">YouTube channel</a>.
+            </p>
         </main>
 
         <footer>
             <div id="footer_content ">
                 <p class="fineprint">© 2024 Charles Belcastro</p>
-                <p class="fineprint">DONUTASK is a registered Australian business ABN 55 198 753 833</p>
-
-                <div id="footer_links ">
-                    <a class="footer_link " href="/index.html ">Homepage</a>
-                    <a class="footer_link " href="mailto:contact@donutask.com ">Contact</a>
-                    <a class="footer_link " href="https://github.com/Donutask/donutask.github.io ">Source Code</a>
-                </div>
+                <small class="fineprint">DONUTASK is a registered Australian business ABN 55 198 753 833</small>
             </div>
         </footer>
     </div>
