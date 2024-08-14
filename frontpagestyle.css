@@ -176,6 +176,19 @@ h3 {
     font-weight: bold;
 }
 
+.otherGameLinks {
+    list-style-type: none;
+    padding: 0;
+}
+
+.otherGameLinks li {
+    margin: 10px 0;
+}
+
+.otherGameLinks a {
+    font-weight: bold;
+}
+
 .icon {
     width: 32px;
     height: 32px;
