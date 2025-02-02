@@ -54,6 +54,10 @@ body {
         background-image: url(/Images/Cookie.png);
     }
 
+    #wordfall {
+        background-image: url(/Images/WordfallIcon.png);
+    }
+
     #wordguess {
         background-image: url(/Images/WordGuessIcon.png);
     }
