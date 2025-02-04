@@ -144,6 +144,37 @@ h3 {
     height: 340px;
 }
 
+#skills-container {
+    padding-top: 10px;
+    display: flex;
+}
+
+#skill-container-1 {
+    flex: 60%;
+}
+
+#skill-container-2 {
+    flex: 40%;
+}
+
+.skill-heading {
+    margin: 0px;
+    font-size: 1.25em;
+    color: hsl(214, 62%, 15%);
+    font-weight: bold;
+}
+
+.skill-items {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.skill-items li {
+    margin: 5px 0;
+}
+
+
 /* colour styling */
 
 .game_container {
