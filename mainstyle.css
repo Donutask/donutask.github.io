@@ -5,7 +5,8 @@ body {
 
 #content {
     max-width: 750px;
-    display: table;
+    display: flex;
+    flex-direction: column;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
@@ -124,9 +125,6 @@ h4 {
 
 footer {
     text-align: center;
-    /* height: 100px; */
-    max-width: 750px;
-    margin: 0 auto;
     padding-right: 25px;
     padding-left: 25px;
     padding-top: 10px;

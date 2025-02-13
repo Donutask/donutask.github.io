@@ -23,7 +23,7 @@ body {
 .game_container {
     display: block;
     text-align: left;
-    width: min(100%, 670px);
+    /* width: min(100%, 670px); */
     transition: background-color 0.5s ease;
     border-radius: 5px;
     cursor: pointer;
@@ -155,6 +155,8 @@ h3 {
 #skills-container {
     padding-top: 10px;
     display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 #skill-container-1 {
@@ -164,6 +166,7 @@ h3 {
 #skill-container-2 {
     flex: 40%;
 }
+
 
 .skill-heading {
     margin: 0px;
@@ -237,4 +240,18 @@ h3 {
     width: 32px;
     height: 32px;
     margin-right: 10px;
+}
+
+/* Make things fit better on smaller screens */
+@media screen and (max-width: 450px) {
+    #skills-container {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 270px) {
+    #email-address {
+        font-size: 0.8em;
+        word-break: break-all;
+    }
 }
