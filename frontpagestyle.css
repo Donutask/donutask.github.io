@@ -1,14 +1,14 @@
 :root {
-    background-color: rgb(240, 240, 240);
+    background-color: #f0f0f0
 }
 
 body {
-    background: linear-gradient(0deg, rgba(10, 108, 172, 1) 0%, rgba(62, 168, 238, 1) 100%);
-    background-repeat: no-repeat;
+    background: linear-gradient(0deg, #0a6cac 0, #3ea8ee 100%);
+    background-repeat: no-repeat
 }
 
 #vidContainer {
-    text-align: center;
+    text-align: center
 }
 
 .wordlogo {
@@ -17,20 +17,17 @@ body {
     width: auto;
     height: auto;
     max-width: 75%;
-    max-height: 50px;
+    max-height: 50px
 }
 
 .game_container {
     display: block;
     text-align: left;
-    /* width: min(100%, 670px); */
-    transition: background-color 0.5s ease;
     border-radius: 5px;
     cursor: pointer;
     margin-bottom: 10px;
     margin-top: 10px;
-    padding: 15px;
-    padding-left: 10px;
+    padding: 15px 15px 15px 10px;
     height: 100%;
     background-repeat: no-repeat;
     background-position: left calc(100% - 20px) top calc(100% - 20px);
@@ -38,180 +35,154 @@ body {
     border-style: none;
     user-select: none;
     text-decoration: none;
+    background-color: #e1e1e1;
+    transition: background-color .5s;
+    box-shadow: 1px 1px 2px #888
 }
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width:100px) {
     #leveleditor {
-        background-image: url(/leveleditor/Icon.png);
+        background-image: url(/leveleditor/Icon.png)
     }
 
     #bubblewrap {
-        background-image: url(/bubblewrap/Icon.png);
+        background-image: url(/bubblewrap/Icon.png)
     }
 
     #breaddash {
-        background-image: url(/breaddash/Icon.png);
+        background-image: url(/breaddash/Icon.png)
     }
 
     #cookie {
-        background-image: url(/Images/Cookie.png);
+        background-image: url(/Images/Cookie.png)
     }
 
     #wordfall {
-        background-image: url(/Images/WordfallIcon.png);
+        background-image: url(/Images/WordfallIcon.png)
     }
 
     #wordguess {
-        background-image: url(/Images/WordGuessIcon.png);
+        background-image: url(/Images/WordGuessIcon.png)
     }
 }
 
+.game_container:focus,
 .game_container:hover {
-    transition: background-color 0.5s ease;
+    transition: background-color .5s;
     border-radius: 10px;
     text-decoration: none;
+    background-color: #6ebdf2;
+    box-shadow: 1px 1px 5px #888
 }
-
-.game_container:focus {
-    transition: background-color 0.5s ease;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-
 
 #games {
     font-size: 200%;
-    margin: 12px;
-    margin-left: 0px;
+    margin: 12px 12px 12px 0
 }
 
 .learn_more {
     display: block;
     font-size: 115%;
-    margin-top: 8px;
+    margin-top: 8px
 }
 
 .game_image {
     border-radius: 5px;
-    position: relative;
+    position: relative
 }
 
 h3 {
-    margin-top: 30px;
-    font-size: 1.5em;
+    margin: 0;
+    font-size: 1.5em
 }
 
 .game_name {
     font-size: 200%;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-weight: 400;
     margin: 10px;
-    font-family: 'Roboto';
-    font-weight: 500;
+    font-family: Roboto;
+    font-weight: 500
 }
 
 .game_description {
     font-size: 125%;
     margin-left: 10px;
     width: calc(100% - 90px);
-    color: black;
+    color: #000;
     margin-top: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 10px
 }
 
+.badge,
 .play_link {
     display: block;
     padding-bottom: 5px;
     margin-left: 10px;
     font-size: 175%;
-    width: 210px;
+    width: 210px
 }
 
-.badge {
-    display: block;
-    padding-bottom: 5px;
-    margin-left: 10px;
-    font-size: 175%;
-    width: 210px;
+.otherGameLinks,
+.skill-items,
+.social-media-links {
+    list-style-type: none;
+    padding: 0
 }
 
 #about_abstract {
     font-size: 1.25em;
-    margin-bottom: 0px;
+    margin-bottom: 0
 }
 
 .about {
-    font-size: 1.09em;
+    font-size: 1.09em
 }
 
 #videoPlayer {
     width: 100%;
     max-width: 600px;
-    height: 340px;
+    height: 340px
+}
+
+#more-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-top: 20px
 }
 
 #skills-container {
     padding-top: 10px;
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 10px
 }
 
 #skill-container-1 {
-    flex: 60%;
+    flex: 60%
 }
 
 #skill-container-2 {
-    flex: 40%;
+    flex: 40%
 }
 
-
 .skill-heading {
-    margin: 0px;
+    margin: 0;
     font-size: 1.25em;
-    color: hsl(214, 62%, 15%);
-    font-weight: bold;
+    color: #0e233d;
+    font-weight: 700
 }
 
 .skill-items {
-    list-style-type: none;
-    padding: 0;
-    margin-top: 10px;
+    margin-top: 10px
 }
 
 .skill-items li {
-    margin: 5px 0;
+    margin: 5px 0
 }
 
-
-/* colour styling */
-
-.game_container {
-    background-color: rgb(225, 225, 225);
-    transition: background-color 0.5s ease;
-    box-shadow: 1px 1px 2px #888888;
-}
-
-.game_container:hover {
-    background-color: #6ebdf2;
-    box-shadow: 1px 1px 5px #888888;
-}
-
-.game_container:focus {
-    background-color: #6ebdf2;
-    box-shadow: 1px 1px 5px #888888;
-}
-
-/* Links */
-.social-media-links {
-    list-style-type: none;
-    padding: 0;
-}
-
+.otherGameLinks li,
 .social-media-links li {
-    margin: 10px 0;
+    margin: 10px 0
 }
 
 .social-media-links a {
@@ -219,39 +190,31 @@ h3 {
     display: flex;
     align-items: center;
     font-size: 1.1em;
-    font-weight: bold;
-}
-
-.otherGameLinks {
-    list-style-type: none;
-    padding: 0;
-}
-
-.otherGameLinks li {
-    margin: 10px 0;
+    font-weight: 700
 }
 
 .otherGameLinks a {
-    font-weight: bold;
-    text-decoration: none;
+    font-weight: 700;
+    text-decoration: none
 }
 
 .icon {
     width: 32px;
     height: 32px;
-    margin-right: 10px;
+    margin-right: 10px
 }
 
-/* Make things fit better on smaller screens */
-@media screen and (max-width: 450px) {
+@media screen and (max-width:450px) {
+
+    #more-flex,
     #skills-container {
-        flex-direction: column;
+        flex-direction: column
     }
 }
 
-@media screen and (max-width: 270px) {
+@media screen and (max-width:270px) {
     #email-address {
-        font-size: 0.8em;
-        word-break: break-all;
+        font-size: .8em;
+        word-break: break-all
     }
 }
