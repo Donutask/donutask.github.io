@@ -3,7 +3,6 @@
 //https://stackoverflow.com/questions/35294633/what-is-the-vanilla-js-version-of-jquerys-getjson
 
 // Inserts latest YouTube video to page.
-
 const channelID = "UC0OBisfM_ZRwf0sfDJ1Q0YQ";
 const reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
 

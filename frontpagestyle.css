@@ -4,7 +4,13 @@
 
 body {
     background: linear-gradient(0deg, #0a6cac 0, #3ea8ee 100%);
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+
+#content {
+    position: relative;
+    z-index: 1;
 }
 
 #vidContainer {
