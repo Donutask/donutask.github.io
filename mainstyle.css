@@ -10,6 +10,9 @@ body {
     margin: 0px;
     font-family: var(--body-font);
     color: var(--body-colour);
+    background: linear-gradient(0deg, #0a6cac 0, #3ea8ee 100%);
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 #content {
@@ -21,29 +24,9 @@ body {
     background-color: rgb(245, 245, 245)
 }
 
-header {
-    padding: 5px 25px 45px 25px;
-    background-image: url("Images/Icing.png");
-    background-size: contain;
-    background-repeat: repeat-x;
-    background-position-x: center;
-    background-position-y: top;
-}
-
-.title {
-    text-align: center;
-    font-size: 250%;
-    letter-spacing: 2%;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
 main {
     padding: 25px;
 }
-
-
 
 .subheading {
     margin-top: 0px;
