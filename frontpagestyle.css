@@ -60,27 +60,23 @@ header {
 
 @media screen and (min-width:100px) {
     #leveleditor {
-        background-image: url(/leveleditor/Icon.png)
+        background-image: url("Images/GameIcons/LevelEditor.png")
     }
 
     #bubblewrap {
-        background-image: url(/bubblewrap/Icon.png)
-    }
-
-    #breaddash {
-        background-image: url(/breaddash/Icon.png)
+        background-image: url("Images/GameIcons/BubbleWrap.png")
     }
 
     #cookie {
-        background-image: url(/Images/Cookie.png)
+        background-image: url("Images/GameIcons/Cookie.png")
     }
 
     #wordfall {
-        background-image: url(/Images/WordfallIcon.png)
+        background-image: url("Images/GameIcons/Wordfall.png")
     }
 
     #wordguess {
-        background-image: url(/Images/WordGuessIcon.png)
+        background-image: url("Images/GameIcons/WordGuess.png")
     }
 }
 

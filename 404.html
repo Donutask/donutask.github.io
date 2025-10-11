@@ -15,21 +15,28 @@
     <title>Donutask</title>
 
     <style>
+        body {
+            width: 100vw;
+            height: 100vh;
+        }
+
         #content {
             position: absolute;
             left: 50%;
             top: 50%;
             -webkit-transform: translate(-50%, -50%);
             transform: translate(-50%, -50%);
+            border-radius: 25px;
         }
 
-        #main_head {
+        h1 {
+            font-family: var(--body-font);
             font-size: 5em;
             margin: 0;
         }
 
         #back {
-            font-size: 1.5em;
+            font-size: 2em;
         }
     </style>
 </head>
@@ -38,8 +45,8 @@
     <div id="content">
         <main>
             <div class="full_width">
-                <h1 id="main_head">404</h1>
-                <p id="main_text">I couldn't find the page you're looking for.</p>
+                <h1>404</h1>
+                <p class="subheading">I couldn't find the page you're looking for.</p>
                 <a id="back" href="/index.html">Return to Homepage</a>
             </div>
         </main>
