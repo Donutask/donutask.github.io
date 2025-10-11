@@ -16,6 +16,12 @@ header {
     background-position-y: top;
 }
 
+@media screen and (max-width: 285px) {
+    header {
+        background-size: cover;
+    }
+}
+
 .title {
     text-align: center;
     font-size: 250%;
