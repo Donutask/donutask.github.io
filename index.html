@@ -4,7 +4,7 @@
 <head>
     <!-- HTML meta -->
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="http-equiv" content="Content-Security-Policy: default-src 'none';">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Donutask</title>
@@ -33,7 +33,10 @@
             <p class="subheading">I make fun videos about game development. <a id="about_link"
                     href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">Vist my channel</a></p>
 
-            <div id="vidContainer" width=700 height=344></div>
+            <div id="vidContainer" width=700 height=350>
+                <noscript>My <a href="https://www.youtube.com/channel/UC0OBisfM_ZRwf0sfDJ1Q0YQ">latest video</a> would
+                    automatically load here, but JavaScript is disabled.</noscript>
+            </div>
             <script src="/loadLatestVideo.js"></script>
 
             <section>
@@ -105,31 +108,36 @@
                 <ul class="social-media-links">
                     <li>
                         <a href="https://www.youtube.com/@donut_ask">
-                            <img src="Images/SocialIcons/youtube.png" alt="" class="icon">
+                            <img src="Images/SocialIcons/youtube.png" alt="" width=32 height=32 loading="lazy"
+                                class="icon">
                             Youtube
                         </a>
                     </li>
                     <li>
                         <a href="https://scratch.mit.edu/users/charlesbel/">
-                            <img src="Images/SocialIcons/scratch.png" alt="" class="icon">
+                            <img src="Images/SocialIcons/scratch.png" alt="" width=32 height=32 loading="lazy"
+                                class="icon">
                             Scratch
                         </a>
                     </li>
                     <li>
                         <a href="https://github.com/Donutask ">
-                            <img src="Images/SocialIcons/github.png" alt="" class="icon">
+                            <img src="Images/SocialIcons/github.png" alt="" width=32 height=32 loading="lazy"
+                                class="icon">
                             Github
                         </a>
                     </li>
                     <li>
                         <a href="https://donutask.itch.io/">
-                            <img src="Images/SocialIcons/itch.png" alt="" class="icon">
+                            <img src="Images/SocialIcons/itch.png" alt="" width=32 height=32 loading="lazy"
+                                class="icon">
                             Itch.io
                         </a>
                     </li>
                     <li>
                         <a href="mailto:contact@donutask.com" id="email-address">
-                            <img src="Images/SocialIcons/email.png" alt="" class="icon">
+                            <img src="Images/SocialIcons/email.png" alt="" width=32 height=32 loading="lazy"
+                                class="icon">
                             contact@donutask.com
                         </a>
                     </li>

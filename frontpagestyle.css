@@ -9,7 +9,7 @@ body {
 }
 
 /* Don't load image that user won't see */
-@media screen and (min-width: 775px) and (max-width:1000px) {
+@media screen and (min-width: 800px) and (max-width:1000px) {
     body {
         background-image: url("Images/Donuts1x.png"), url("Images/BlueNoise.png");
     }
@@ -52,7 +52,8 @@ header {
 }
 
 #vidContainer {
-    text-align: center
+    text-align: center;
+    height: 350px;
 }
 
 .wordlogo {

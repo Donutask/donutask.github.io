@@ -2,6 +2,7 @@
 //https://stackoverflow.com/questions/18267426/html-auto-embedding-recent-uploaded-videos-from-a-youtube-channel/45342740#45342740
 //https://stackoverflow.com/questions/35294633/what-is-the-vanilla-js-version-of-jquerys-getjson
 
+const container =  document.getElementById("vidContainer");
 // Inserts latest YouTube video to page.
 const channelID = "UC0OBisfM_ZRwf0sfDJ1Q0YQ";
 const reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
@@ -19,9 +20,9 @@ request.onload = function () {
         const id = link.substr(link.indexOf("=") + 1);
 
         const vidPlayer = document.createElement("iframe");
-        document.getElementById("vidContainer").appendChild(vidPlayer);
-        vidPlayer.width = 600;
-        vidPlayer.height = 340;
+       container.appendChild(vidPlayer);
+        vidPlayer.width = 700;
+        vidPlayer.height = 350;
         vidPlayer.frameBorder = 0;
         vidPlayer.allowFullscreen = true;
 
@@ -43,8 +44,10 @@ document.onload = new function () {
     //Allow you to add ?hidevideo to not have youtube be annoying
     const urlParams = new URLSearchParams(window.location.search);
     const hideVid = urlParams.has('hidevideo');
-
-    if (!hideVid) {
+    
+    if (hideVid) {
+        container.hidden = true;
+    }else{
         request.send();
     }
 }
