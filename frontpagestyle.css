@@ -2,9 +2,29 @@
     background-color: #f0f0f0
 }
 
+body {
+    background-size: 100%, 255px;
+    background-repeat: repeat-y, repeat;
+    background-position-y: 5%;
+}
+
+/* Don't load image that user won't see */
+@media screen and (min-width: 775px) and (max-width:1000px) {
+    body {
+        background-image: url("Images/Donuts1x.png"), url("Images/BlueNoise.png");
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    body {
+        background-image: url("Images/Donuts2x.png"), url("Images/BlueNoise.png");
+    }
+}
+
 #content {
     position: relative;
     z-index: 1;
+    min-height: 100vh;
 }
 
 header {
