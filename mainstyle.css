@@ -1,6 +1,15 @@
+html {
+    --heading-font: "Atkinson Hyperlegible Next", sans-serif;
+    --heading-colour: #03022d;
+
+    --body-font: "Roboto", sans-serif;
+    --body-colour: black;
+}
+
 body {
-    font-family: 'Roboto', sans-serif;
     margin: 0px;
+    font-family: var(--body-font);
+    color: var(--body-colour);
 }
 
 #content {
@@ -9,42 +18,29 @@ body {
     flex-direction: column;
     margin: 0 auto;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color: rgb(245, 245, 245)
 }
 
 header {
-    padding-right: 25px;
-    padding-left: 25px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.header_container {
-    height: 50px;
-    text-align: left;
-}
-
-.logo {
-    width: 50px;
-    height: 50px;
-    display: inline;
+    padding: 5px 25px 45px 25px;
+    background-image: url("Images/Icing.png");
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-position-x: center;
+    background-position-y: top;
 }
 
 .title {
-    font-size: 200%;
-    display: inline;
-    line-height: 50px;
-    height: 50px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    position: relative;
-    bottom: 25%;
-    margin-left: 15px;
-    font-weight: 400;
+    text-align: center;
+    font-size: 250%;
+    letter-spacing: 2%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 main {
     padding: 25px;
-    /* width: 100%; */
 }
 
 #main_head {
@@ -54,6 +50,16 @@ main {
 #main_text {
     margin-top: 0px;
     font-size: 150%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--heading-font);
+    color: var(--heading-colour);
 }
 
 h2 {
@@ -83,10 +89,9 @@ h4 {
     margin: 0;
     padding: 0;
     white-space: nowrap;
-    /* max-width: 750px; */
-    /* width: 90%; */
-    width: 750px;
-    max-width: 82vw;
+
+    max-width: 700px;
+    width: 100vw;
     overflow-x: auto;
     user-select: none;
 }
@@ -147,24 +152,4 @@ footer {
 
 #footer_links {
     display: block;
-}
-
-/* THEMING */
-/* Light mode isn't in @media because it doesn't work on internet explorer lol */
-
-body {
-    background-color: rgb(230, 230, 230);
-    color: black;
-}
-
-header {
-    background-color: rgb(240, 240, 240);
-}
-
-main {
-    background-color: rgb(245, 245, 245)
-}
-
-footer {
-    background-color: rgb(240, 240, 240);
 }
