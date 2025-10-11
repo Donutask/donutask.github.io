@@ -42,7 +42,8 @@ header {
     }
 }
 
-.title {
+h1 {
+    text-transform: lowercase;
     text-align: center;
     font-size: 250%;
     letter-spacing: 2%;
@@ -140,7 +141,6 @@ h3 {
 .game_name {
     font-size: 200%;
     margin: 10px;
-    font-family: Roboto;
     font-weight: 500
 }
 
@@ -169,11 +169,6 @@ h3 {
     padding: 0
 }
 
-#about_abstract {
-    font-size: 1.25em;
-    margin-bottom: 0
-}
-
 .about {
     font-size: 1.09em
 }
@@ -189,36 +184,6 @@ h3 {
     flex-direction: row;
     gap: 10px;
     margin-top: 20px
-}
-
-#skills-container {
-    padding-top: 10px;
-    display: flex;
-    flex-direction: row;
-    gap: 10px
-}
-
-#skill-container-1 {
-    flex: 60%
-}
-
-#skill-container-2 {
-    flex: 40%
-}
-
-.skill-heading {
-    margin: 0;
-    font-size: 1.25em;
-    color: #0e233d;
-    font-weight: 700
-}
-
-.skill-items {
-    margin-top: 10px
-}
-
-.skill-items li {
-    margin: 5px 0
 }
 
 .otherGameLinks li,
@@ -243,14 +208,6 @@ h3 {
     width: 32px;
     height: 32px;
     margin-right: 10px
-}
-
-@media screen and (max-width:450px) {
-
-    #more-flex,
-    #skills-container {
-        flex-direction: column
-    }
 }
 
 @media screen and (max-width:270px) {
