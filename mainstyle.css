@@ -43,11 +43,9 @@ main {
     padding: 25px;
 }
 
-#main_head {
-    font-size: 200%;
-}
 
-#main_text {
+
+.subheading {
     margin-top: 0px;
     font-size: 150%;
 }
@@ -60,6 +58,10 @@ h5,
 h6 {
     font-family: var(--heading-font);
     color: var(--heading-colour);
+}
+
+h1 {
+    font-size: 200%;
 }
 
 h2 {
@@ -152,4 +154,8 @@ footer {
 
 #footer_links {
     display: block;
+}
+
+#footer_links a {
+    margin-right: 10px;
 }
