@@ -76,7 +76,7 @@ h4 {
     white-space: nowrap;
 
     max-width: 700px;
-    width: 100vw;
+    width: 100%;
     overflow-x: auto;
     user-select: none;
 }

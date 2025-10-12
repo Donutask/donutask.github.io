@@ -1,0 +1,23 @@
+@font-face {
+    font-family: "Atkinson Hyperlegible Next";
+    font-style: normal;
+    src: local() url("AtkinsonHyperlegibleNext.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Atkinson Hyperlegible Next";
+    font-style: italic;
+    src: url("AtkinsonHyperlegibleNext.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    src: url("Roboto.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: "Roboto";
+    font-style: italic;
+    src: url("Roboto-Italic.ttf") format("opentype");
+}
