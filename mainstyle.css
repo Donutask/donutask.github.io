@@ -87,13 +87,11 @@ h4 {
     width: auto;
     margin-left: 5px;
     margin-right: 5px;
-    /* user-select: none; */
 }
 
 .gallery_img_vertical {
     height: auto;
     width: 100px;
-    /* border: white 1px solid; */
     margin: 1px;
 }
 
@@ -112,14 +110,11 @@ h4 {
 }
 
 .playButton img {
-    /* https://partnermarketinghub.withgoogle.com/brands/google-play/visual-identity/badge-guidelines/ */
     min-height: 7.6mm;
     height: 150px;
     margin: 2mm;
     width: 100%;
 }
-
-/* Footer */
 
 footer {
     text-align: center;

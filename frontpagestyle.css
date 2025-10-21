@@ -34,6 +34,7 @@ header {
     background-repeat: repeat-x;
     background-position-x: center;
     background-position-y: top;
+    z-index: 1;
 }
 
 @media screen and (max-width: 285px) {
@@ -169,8 +170,34 @@ h3 {
     padding: 0
 }
 
+/* 
+.hero {
+    font-size: min(12vw, 5em);
+    font-family: var(--heading-font);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+    text-align: center;
+    width: calc(100% + 27px);
+    overflow: hidden;
+
+    margin-top: -45px;
+    line-height: 110%;
+}
+
+.funWord {
+    font-family: "Fun";
+    font-size: larger;
+    font-weight: 450;
+}
+
+.heroImg {
+    width: 100%;
+} */
+
 .about {
-    font-size: 1.09em
+    font-size: 1.09em;
 }
 
 #videoPlayer {
