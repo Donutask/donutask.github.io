@@ -1,62 +1,59 @@
-:root {
-    background-color: #f0f0f0
-}
-
 body {
     background-size: 100%, 255px;
     background-repeat: repeat-y, repeat;
-    background-position-y: 5%;
-}
-
-/* Don't load image that user won't see */
-@media screen and (min-width: 800px) and (max-width:1000px) {
-    body {
-        background-image: url("Images/Donuts1x.png"), url("Images/BlueNoise.png");
-    }
-}
-
-@media screen and (min-width: 1000px) {
-    body {
-        background-image: url("Images/Donuts2x.png"), url("Images/BlueNoise.png");
-    }
+    background-position-y: 5%
 }
 
 #content {
     position: relative;
     z-index: 1;
-    min-height: 100vh;
+    min-height: 100vh
 }
 
 header {
-    padding: 5px 25px 45px 25px;
+    padding: 5px 25px 45px;
     background-image: url("Images/Icing.png");
     background-size: contain;
     background-repeat: repeat-x;
     background-position-x: center;
     background-position-y: top;
-    z-index: 1;
+    z-index: 1
 }
 
-@media screen and (max-width: 285px) {
+@media screen and (max-width:285px) {
     header {
-        background-size: cover;
+        background-size: cover
     }
 }
 
 h1 {
     text-transform: lowercase;
-    text-align: center;
     font-size: 250%;
     letter-spacing: 2%;
     width: 100%;
-    margin: 0;
-    padding: 0;
+    padding: 0
+}
+
+h1,
+h3 {
+    margin: 0
+}
+
+#vidContainer,
+h1 {
+    text-align: center
 }
 
 #vidContainer {
-    text-align: center;
-    height: 350px;
+    height: 350px
 }
+
+.otherGameLinks a,
+.social-media-links a {
+    font-weight: 700;
+    text-decoration: none
+}
+
 
 .wordlogo {
     margin-left: 9px;
@@ -135,7 +132,6 @@ h1 {
 }
 
 h3 {
-    margin: 0;
     font-size: 1.5em
 }
 
@@ -170,34 +166,8 @@ h3 {
     padding: 0
 }
 
-/* 
-.hero {
-    font-size: min(12vw, 5em);
-    font-family: var(--heading-font);
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    max-height: 500px;
-    text-align: center;
-    width: calc(100% + 27px);
-    overflow: hidden;
-
-    margin-top: -45px;
-    line-height: 110%;
-}
-
-.funWord {
-    font-family: "Fun";
-    font-size: larger;
-    font-weight: 450;
-}
-
-.heroImg {
-    width: 100%;
-} */
-
 .about {
-    font-size: 1.09em;
+    font-size: 1.09em
 }
 
 #videoPlayer {
@@ -219,16 +189,9 @@ h3 {
 }
 
 .social-media-links a {
-    text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 1.1em;
-    font-weight: 700
-}
-
-.otherGameLinks a {
-    font-weight: 700;
-    text-decoration: none
+    font-size: 1.1em
 }
 
 .icon {
