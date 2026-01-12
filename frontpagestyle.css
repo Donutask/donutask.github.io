@@ -48,6 +48,44 @@ h1 {
     height: 350px
 }
 
+
+.hero {
+    font-size: min(12vw, 5em);
+    font-family: var(--heading-font);
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    max-height: 500px;
+    text-align: center;
+    width: calc(100% + 27px);
+    overflow: hidden;
+
+    margin-top: -45px;
+    line-height: 110%;
+}
+
+.heroText {
+    margin-bottom: 0;
+}
+
+.heroButton {
+    padding: 15px;
+    font-size: .4em;
+    border-radius: 50px;
+    background-color: #f899ec;
+}
+
+.funWord {
+    /* font-family: "Fun"; */
+    font-size: larger;
+    /* font-weight: 450; */
+}
+
+.heroImg {
+    width: 100%;
+}
+
+
 .otherGameLinks a,
 .social-media-links a {
     font-weight: 700;
@@ -88,6 +126,11 @@ h1 {
     #leveleditor {
         background-image: url("Images/GameIcons/LevelEditor.png")
     }
+
+    #lemonade {
+        background-image: url("Images/GameIcons/Lemonade.png")
+    }
+
 
     #bubblewrap {
         background-image: url("Images/GameIcons/BubbleWrap.png")
